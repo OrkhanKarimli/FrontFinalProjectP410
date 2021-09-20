@@ -1,7 +1,8 @@
 $(document).ready(function () {
+  $(".loader1").load("_loading.html");
     $("header").addClass("container,headmenu")
   $(".nice-select").niceSelect();
-  $(".loader1").load("_loading.html");
+  
   $("header").load("_header.html");
   
   setTimeout(function(){ 

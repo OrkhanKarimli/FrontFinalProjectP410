@@ -372,3 +372,31 @@
         font-size: 14px;
     }
 }
+.choose{
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #C5010A;
+    p{
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+.choosecol6{
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 608px;
+    }
+    
+}
+.choosecircle{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #E2E2EA;
+}
+.cusinfo{
+    margin-bottom: 4%;
+}
