@@ -423,3 +423,37 @@ p {
 .info p {
   margin-right: 2%;
 }
+
+.expcol6img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 544px;
+}
+
+.experiences {
+  background-color: #F7F7FCFF;
+  padding-top: 13%;
+  padding-bottom: 12%;
+}
+
+.exptext p {
+  margin-top: 5%;
+  color: #9A9AB0;
+}
+
+.expcount {
+  margin-top: 5%;
+}
+
+.expcount #first, .expcount #firstspan {
+  color: #fa3c45;
+}
+
+.expcount h2, .expcount p {
+  margin-right: 4%;
+}
+
+.expcount p {
+  font-size: 14px;
+}
