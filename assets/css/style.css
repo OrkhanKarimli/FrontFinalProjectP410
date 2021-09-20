@@ -367,3 +367,59 @@ p {
 .strikes span:nth-child(5) {
   --n: 5;
 }
+
+.our-collection {
+  background-color: #F7F7FCFF;
+  padding-top: 13%;
+}
+
+.icon-left {
+  margin-right: 6%;
+}
+
+.iconmain {
+  padding: 1px 8px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: #fa3c45;
+}
+
+.iconmain:hover {
+  background-color: #fa3c45;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s all ease-in;
+  transition: 0.3s all ease-in;
+}
+
+.collarge .col8cont {
+  height: 400px;
+  background-color: #D0131CFF;
+  padding: 0% 0% 10% 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: white;
+}
+
+.collarge .col8cont p, .collarge .col8cont h6 {
+  color: #EB9195FF;
+}
+
+.colsmall img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+}
+
+.info p {
+  margin-right: 2%;
+}

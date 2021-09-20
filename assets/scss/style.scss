@@ -1,23 +1,5 @@
-$font-family: "Mulish", sans-serif;
-$button-color: #fa3c45;
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-ul,
-ol {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-}
-a {
-    text-decoration: none;
-}
-p {
-    margin: 0;
-}
+@import "variables";
+@import "clear";
 .overflow-y{
     overflow-y: hidden;
 }
@@ -309,4 +291,52 @@ p {
 
 .strikes span:nth-child(5) {
     --n: 5;
+}
+.our-collection{
+    background-color: #F7F7FCFF;
+    padding-top: 13%;
+}
+.icon-left{
+    margin-right: 6%;
+}
+.iconmain{
+    padding: 1px 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: $button-color;
+   
+}
+.iconmain:hover{
+    background-color: $button-color;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s all ease-in;
+}
+.collarge{
+  .col8cont{
+    height: 400px;
+    background-color: #D0131CFF;
+    padding: 0% 0% 10% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    p,h6{
+        color: #EB9195FF;
+    }
+  }
+}
+.colsmall{
+   
+    
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+    }
+}
+.info{
+    p{
+        margin-right: 2%;
+    }
 }
