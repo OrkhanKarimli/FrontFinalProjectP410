@@ -75,7 +75,7 @@ p {
   margin-top: 20%;
   margin-bottom: 25%;
   font-size: 16px;
-  padding: 6px 10px;
+  padding: 6px 25px;
   background-color: #fa3c45;
   color: white;
   border-radius: 3px;
@@ -85,7 +85,7 @@ p {
 .sectionbtn2 button {
   margin-bottom: 25%;
   font-size: 16px;
-  padding: 6px 30px;
+  padding: 6px 25px;
   background-color: #fa3c45;
   color: white;
   border-radius: 3px;
