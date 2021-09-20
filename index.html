@@ -1,56 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car|Sale</title>
-    <link rel="stylesheet" href="assets/libs/css/all.min.css">
-    <link rel="stylesheet" href="assets/libs/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/libs/css/niceselect.css" />
+    <link rel="stylesheet" href="assets/libs/css/all.min.css" />
+    <link rel="stylesheet" href="assets/libs/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid main">
-        <header class="container headmenu">
-             <nav class="row">
-                 <div class="col-md-2">
-                     <div class="logo">
-                         <img src="assets/images/home/logo.png" alt="logo">
+      <header class="container headmenu"></header>
+      <div class="container text-menu mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12 mb-3">
+                <h5>Esemka Car</h5>
+              </div>
+              <div class="col-md-12 text-capitalize mb-5">
+                <h1>Model SV</h1>
+              </div>
 
-                     </div>
-                 </div>
-                 <div class="col-md-7">
-                     <ul class="d-flex mainul justify-content-between">
-                         <li>Home</li>
-                         <li>Explore</li>
-                         <li>Showroom</li>
-                         <li>Credit Simulation</li>
-                         <li>Contac Us</li>
-                         <li>Page <span><i class="fas fa-chevron-down"></i></span></li>
-                     </ul>
-                 </div>
-                 <div class="col-md-3 d-flex justify-content-center">
-                     <div class="round">
-                      
-                     </div>
-                     <div class="homebtn">
-                      <button class="text-capitalize">add your item</button>
-                     </div>
-                 </div>
-
-             </nav>
-            
-
-        </header>
+              <div class="d-flex eco">
+                <div>
+                  <h6 class="text-capitalize">Milliage</h6>
+                  <p>555</p>
+                </div>
+                <div>
+                  <h6 class="text-capitalize">engine</h6>
+                  <p>2000</p>
+                </div>
+                <div>
+                  <h6 class="text-capitalize">full economy</h6>
+                  <p>8</p>
+                </div>
+              </div>
+              <div class="homebtn1">
+                <button class="text-capitalize">buy now</button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              col-md-6
+              d-flex
+              justify-content-center
+              flex-column
+              align-items-end
+            "
+          >
+            <div class="circle"><i class="fas fa-circle"></i></div>
+            <div class="circle">
+              <i style="color: #fa3c45" class="fas fa-circle"></i>
+            </div>
+            <div class="circle">
+              <i class="fas fa-circle"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <section style="height: 100vh; margin: 0 auto" class="select">
+      <div class="container-fluid">
+        <div class="container mt-4">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <select
+                class="nice-select wide"
+                aria-label="Disabled select example"
+              >
+                <option selected>Select Brand</option>
+                <option value="1">LADA</option>
+                <option value="2">Mercedes-benz</option>
+                <option value="3">BMW</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <select
+                class="nice-select wide"
+                aria-label="Disabled select example"
+              >
+                <option selected>Select Model</option>
+                <option value="1">Niva-Urban</option>
+                <option value="2">E270CDI</option>
+                <option value="3">E530D</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <div class="sectionbtn2">
+                <button class="text-capitalize">search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-
-
-
-</body>
-
+    <script src="assets/libs/js/jquery.js"></script>
+    <script src="assets/libs/js/niceselect.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
 </html>
