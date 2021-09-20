@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.headmenu {
+  margin-top: 2%;
+}
+
+.logo {
+  background-color: red;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.mainul li {
+  margin-right: 4%;
+}
+
+.round {
+  margin-right: 6%;
+  width: 10%;
+  height: 80%;
+  display: inline-block;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.homebtn button {
+  font-size: 12px;
+  padding: 6px 10px;
+  background-color: #fa3c45;
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
