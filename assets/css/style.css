@@ -502,3 +502,155 @@ p {
 .brand .colimg img {
   width: 100%;
 }
+
+.newitems {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #E5E5E5;
+}
+
+.w211 {
+  background-image: url(../images/home/w213.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 830px;
+  position: relative;
+}
+
+.w211 h3, .w211 p {
+  color: white;
+}
+
+.w211 h4 {
+  color: #fa3c45;
+}
+
+.w211::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+
+.cars {
+  height: 406px;
+  margin-top: 3%;
+}
+
+.w213 {
+  background-image: url(../images/home/w211.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.w213 h3, .w213 p {
+  color: white;
+}
+
+.w213 h4 {
+  color: #fa3c45;
+}
+
+.w213::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+
+.audirs6 {
+  background-image: url(../images/home/audirs6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.audirs6 h3, .audirs6 p {
+  color: white;
+}
+
+.audirs6 h4 {
+  color: #fa3c45;
+}
+
+.audirs6::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+
+.f10 {
+  background-image: url(../images/home/f10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.f10 h3, .f10 p {
+  color: white;
+}
+
+.f10 h4 {
+  color: #fa3c45;
+}
+
+.f10::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+
+.f30 {
+  background-image: url(../images/home/f30.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.f30 h3, .f30 p {
+  color: white;
+}
+
+.f30 h4 {
+  color: #fa3c45;
+}
+
+.f30::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
