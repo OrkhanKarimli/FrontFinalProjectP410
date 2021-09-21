@@ -1,5 +1,8 @@
 @import "variables";
 @import "clear";
+html,body{
+    overflow-x: hidden;
+}
 .overflow-y{
     overflow-y: hidden;
 }
@@ -432,8 +435,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 830px;
+    height: 822px;
     position: relative;
+    border-radius: 4px;
     
 }
 .w211::before{
@@ -450,7 +454,8 @@
 }
 .cars{
     height: 406px;
-    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 4px;
 }
 .w213{
     h3,p{
@@ -563,4 +568,45 @@
     left: 2%;
     border-radius: 3px;
 
+}
+.about-us{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: #E5E5E5;
+}
+.people-saying-right{
+    background-color: white;
+    padding: 6% 9%;
+    height: 100%;
+
+    h6{
+        color: $button-color;
+    }
+    #p1{
+        color: #92929D;
+    }
+}
+.owcar{
+    img{
+        width: 100%;
+       
+    }
+}
+.ourapp{
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+.ourright{
+    ul{
+        li{
+            i{
+                margin-right: 2%;
+                color: $button-color;
+            }
+            font-weight: bold;
+        }
+    }
+}
+#lastli{
+    margin-bottom: 20%;
 }
