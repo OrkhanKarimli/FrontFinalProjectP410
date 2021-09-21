@@ -571,7 +571,7 @@ html,body{
 }
 .about-us{
     padding-top: 8%;
-    padding-bottom: 8%;
+    padding-bottom: 4%;
     background-color: #E5E5E5;
 }
 .people-saying-right{
@@ -594,7 +594,7 @@ html,body{
 }
 .ourapp{
     padding-top: 9%;
-    padding-bottom: 9%;
+    
 }
 .ourright{
     ul{
@@ -607,6 +607,35 @@ html,body{
         }
     }
 }
+.ourleft{
+    img{
+        width: 100%;
+    }
+}
 #lastli{
     margin-bottom: 20%;
+}
+.subscribe{
+    padding-top: 9%;
+    padding-bottom: 9%;
+    background-color: #E5E5E5;
+    label{
+        font-weight: bold;
+    }
+    .col-md-3{
+        width: 23%;
+    }
+}
+.subs-email{
+    width: 70%;
+}
+.buttonsubs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 7px 10px;
+    background-color: #fa3c45;
+    color: white;
+    border-radius: 7px;
 }

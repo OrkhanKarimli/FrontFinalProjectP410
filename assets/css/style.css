@@ -663,7 +663,7 @@ html, body {
 
 .about-us {
   padding-top: 8%;
-  padding-bottom: 8%;
+  padding-bottom: 4%;
   background-color: #E5E5E5;
 }
 
@@ -687,7 +687,6 @@ html, body {
 
 .ourapp {
   padding-top: 9%;
-  padding-bottom: 9%;
 }
 
 .ourright ul li {
@@ -699,6 +698,45 @@ html, body {
   color: #fa3c45;
 }
 
+.ourleft img {
+  width: 100%;
+}
+
 #lastli {
   margin-bottom: 20%;
+}
+
+.subscribe {
+  padding-top: 9%;
+  padding-bottom: 9%;
+  background-color: #E5E5E5;
+}
+
+.subscribe label {
+  font-weight: bold;
+}
+
+.subscribe .col-md-3 {
+  width: 23%;
+}
+
+.subs-email {
+  width: 70%;
+}
+
+.buttonsubs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  padding: 7px 10px;
+  background-color: #fa3c45;
+  color: white;
+  border-radius: 7px;
 }
