@@ -14,12 +14,18 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body class="overflow-y"  >
+  <body class="overflow-y" >
     <!-- add body class class="overflow-y" -->
     <div class="loader1"></div>
 
     <div class="container-fluid main">
-      <header></header>
+      <header>  
+        <nav>
+        
+        
+     
+      </nav>
+      </header>
       <div class="container text-menu mt-5">
         <div class="row">
           <div class="col-md-6">
@@ -55,8 +61,8 @@
               col-md-6
               d-flex
               justify-content-center
-              flex-column
-              align-items-end
+              
+              align-items-end circlemain
             "
           >
             <div class="circle"><i class="fas fa-circle"></i></div>
@@ -113,23 +119,54 @@
               <h1 class="text-capitalize">our collection</h1>
             </div>
             <div class="col-md-4 mb-5 d-flex justify-content-end">
-              <div class="icon-left iconmain">
-                <i class="fas fa-chevron-left"></i>
+              <div role="presentation" class="icon-left iconmain owl-prev">
+                <i aria-label="Previous" class="fas fa-chevron-left"></i>
               </div>
-              <div class="icon-right iconmain">
-                <i class="fas fa-chevron-right"></i>
+              <div role="presentation" class="icon-right iconmain owl-next">
+                <i aria-label="Previous" class="fas fa-chevron-right"></i>
               </div>
             </div>
-            <div class="col-md-8 collarge">
+            <!-- <div class="col-md-8 collarge">
               <div class="col8cont">
-                <h6>Esemka Car</h6>
-                <h1>Model SX</h1>
-                <div class="info d-flex">
-                  <p class="text-capitalize">2000</p>
-                  <p class="text-capitalize">electric</p>
-                  <p class="text-capitalize">automatic</p>
+                <div class="owl-carousel owl-as owl-theme">
+                  <div class="item">
+                     <div class="owl-homeimg">
+                    <img src="assets/images/home/audicar.jpg" alt="">
+                    <div class="owl-cont">
+                      <h6 id="absolute1">Esemka Car</h6>
+                <h1 id="absolute2">Model SX</h1>
+              
+                  <p id="p1" class="text-capitalize">2000</p>
+                  <p id="p2" class="text-capitalize">electric</p>
+                  <p id="p3" class="text-capitalize">automatic</p>
+                
+                <div class="arrow mt-3">
+                  <i class="fas fa-arrow-right"></i>
                 </div>
-                  <div class="owl-homeimg">
+                    </div>
+                                    
+                  </div>
+                  </div>
+                 <div class="item">
+                   <div class="owl-homeimg">
+                    <img src="assets/images/home/merccar.jpg" alt="">
+                    <div class="contentowl">
+                <h6 id="absolute1">Esemka Car</h6>
+                    <h1 id="absolute2">Model SX</h1>
+                  
+                      <p id="p1" class="text-capitalize">2000</p>
+                      <p id="p2" class="text-capitalize">electric</p>
+                      <p id="p3" class="text-capitalize">automatic</p>
+                    
+                    <div class="arrow mt-3">
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                    </div>
+    
+                  </div>
+                 </div>
+                  <div class="item">
+                      <div class="owl-homeimg">
                       <img src="assets/images/home/bmwcar.jpg" alt="">
                       <h6 id="absolute1">Esemka Car</h6>
                       <h1 id="absolute2">Model SX</h1>
@@ -138,21 +175,80 @@
                         <p id="p2" class="text-capitalize">electric</p>
                         <p id="p3" class="text-capitalize">automatic</p>
                       
-                <div class="arrow mt-3">
+                      <div class="arrow mt-3">
+                        <i class="fas fa-arrow-right"></i>
+                      </div>
+                  </div>
+                  </div>
+                
+                  
+                
+                </div>
+
+              </div>
+            </div> -->
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-8 collarge">
+              <div class="owl-carousel owl-theme homefirst">
+              <div class="item">
+                   <div class="divcolimage8">
+                <img src="assets/images/home/bmwcar.jpg" alt="">
+                <div class="divcontcol8">
+                <h6>Esemka Car</h6>
+                <h1>Model SX</h1>
+                <span>200</span> <span>electric</span> <span>automatic</span>
+                <div class="colarrow">
                   <i class="fas fa-arrow-right"></i>
                 </div>
+                
+
               </div>
+              </div>
+              </div>
+              <div class="item">
+                <div class="divcolimage8">
+             <img src="assets/images/home/audicar.jpg" alt="">
+             <div class="divcontcol8">
+             <h6>Esemka Car</h6>
+             <h1>Model SX</h1>
+             <span>200</span> <span>electric</span> <span>automatic</span>
+             <div class="colarrow">
+               <i class="fas fa-arrow-right"></i>
+             </div>
+             
+
+           </div>
+           </div>
+           </div>
+           <div class="item">
+            <div class="divcolimage8">
+         <img src="assets/images/home/merccar.jpg" alt="">
+         <div class="divcontcol8">
+         <h6>Esemka Car</h6>
+         <h1>Model SX</h1>
+         <span>200</span> <span>electric</span> <span>automatic</span>
+         <div class="colarrow">
+           <i class="fas fa-arrow-right"></i>
+         </div>
+         
+
+       </div>
+       </div>
+       </div>
+              </div>
+
+           
+
             </div>
-            <div class="col-md-4 colsmall">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 colsmall">
               <img src="assets/images/home/e39.jpg" alt="" />
             </div>
-            <div class="col-md-4 colsmall mt-3">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 colsmall mt-3">
               <img src="assets/images/home/e60.jpg" alt="" />
             </div>
-            <div class="col-md-4 colsmall mt-3">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 colsmall mt-3">
               <img src="assets/images/home/w210.jpg" alt="" />
             </div>
-            <div class="col-md-4 colsmall mt-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 colsmall mt-3">
               <img src="assets/images/home/Vaz2107.jpg" alt="" />
             </div>
           </div>
@@ -163,11 +259,11 @@
       <div class="container-fluid">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 expcol6img">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 expcol6img">
               <img src="assets/images/home/U74sXo.jpg" alt="ford" />
             </div>
             <div
-              class="col-md-6 exptext d-flex flex-column justify-content-center"
+              class="col-12 col-sm-12 col-md-6 col-lg-6 exptext d-flex flex-column justify-content-center"
             >
               <h2 style="font-weight: bold" class="text-capitalize">
                 Over 10 Years
@@ -213,7 +309,7 @@
         <div class="container-fluid">
             <div class="container">
                <div class="row">
-                   <div class="col-md-6">
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-6">
              <div class="col-md-12">
                  <h1 class="text-capitalize">Why Choose Us?</h1>
                  <p>We will help a client's problems to develop the products they
@@ -268,7 +364,7 @@
                 </div>
             </div>
                    </div>
-                   <div class="col-md-6 choosecol6">
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-6 choosecol6">
                     <img src="assets/images/home/lamborghini-huracan-lp-610-4-red-car-sport-cars-1080P-wallpaper.jpg" alt="">
                    </div>
                </div>
@@ -282,37 +378,37 @@
                 <div class="col-md-12">
                     <h5 class="text-capitalize mb-4">Our Top Brands</h5>
                 </div>
-                <div class="col-md-2 brand">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 brand">
                     <div class="colimg">
                         <img src="assets/images/home/logoes/logo 1.png" alt="">
                     </div>
                  
                 </div>
-                <div class="col-md-2 brand">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 brand">
                     <div class="colimg">
                         <img src="assets/images/home/logoes/logo 2.png" alt="">
                     </div>
                    
                 </div>
-                <div class="col-md-2 brand">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 brand">
                     <div class="colimg">
                         <img src="assets/images/home/logoes/logo 3.png" alt="">
                     </div>
                     
                 </div>
-                <div class="col-md-2 brand">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 brand">
                     <div class="colimg">
                         <img src="assets/images/home/logoes/logo 4.png" alt="">
                     </div>
                     
                 </div>
-                <div class="col-md-2 brand">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 brand">
                     <div class="colimg">
                         <img src="assets/images/home/logoes/logo 5.png" alt="">
                     </div>
                     
                 </div>
-                <div class="col-md-2 brand">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 brand">
                     <div class="colimg">
                         <img src="assets/images/home/logoes/logo 6.png" alt="">
                     </div>
@@ -332,7 +428,7 @@
                     new items
                   </h2>
               </div> 
-              <div class="col-md-6">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                <div class="w211 d-flex flex-column justify-content-end align-items-center text-center">
                    <div class="car-cont">
                        <h3 class="text-capitalize">Model SV</h3>
@@ -341,7 +437,7 @@
                    </div>
                </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                   <div class="row">
                     <div class="col-md-6">
                         <div class="f30 cars d-flex flex-column justify-content-end align-items-center text-center">
@@ -352,7 +448,7 @@
                             </div>
                         </div>
                        </div>
-                       <div class="col-md-6">
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="cars w213 d-flex flex-column justify-content-end align-items-center text-center">
                             <div class="car-cont">
                                 <h3 class="text-capitalize">Model SV</h3>
@@ -361,7 +457,7 @@
                             </div>
                         </div>
                        </div>
-                       <div class="col-md-6">
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="cars audirs6  d-flex flex-column justify-content-end align-items-center text-center">
                             <div class="car-cont">
                                 <h3 class="text-capitalize">Model SV</h3>
@@ -370,7 +466,7 @@
                             </div>
                         </div>
                        </div>
-                       <div class="col-md-6">
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class=" cars f10  d-flex flex-column justify-content-end align-items-center text-center">
                             <div class="car-cont">
                                 <h3 class="text-capitalize">Model SV</h3>
@@ -407,7 +503,7 @@
                <div class="owl-carousel owl-theme">
                      <div class="item">
                         <div class="row">
-                            <div class="col-md-6 ">
+                            <div class="col-md-6 mediafix">
                            
                             <img src="assets/images/home/fordexplorer.jpg" alt=""> 
                             <!-- <div> <img src="assets/images/home/lamborghini-huracan-lp-610-4-red-car-sport-cars-1080P-wallpaper.jpg" alt=""> </div>
@@ -440,7 +536,7 @@ made my website look better.
                     </div>
                     <div class="item">
                         <div class="row">
-                            <div class="col-md-6 ">
+                            <div class="col-md-6 mediafix">
                            
                             <img src="assets/images/home/563x375.jpg" alt=""> 
                             <!-- <div> <img src="assets/images/home/lamborghini-huracan-lp-610-4-red-car-sport-cars-1080P-wallpaper.jpg" alt=""> </div>
@@ -473,7 +569,7 @@ made my website look better.
                     </div>
                     <div class="item">
                         <div class="row">
-                            <div class="col-md-6 ">
+                            <div class="col-md-6 mediafix">
                            
                             <img src="assets/images/home/ferrari.jpg" alt=""> 
                             <!-- <div> <img src="assets/images/home/lamborghini-huracan-lp-610-4-red-car-sport-cars-1080P-wallpaper.jpg" alt=""> </div>
@@ -523,10 +619,10 @@ made my website look better.
         <div class="container-fluid">
             <div class="container">
                 <div class="row ourleft">
-                     <div class="col-md-6">
+                     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                  <img src="assets/images/home/logoes/iPhone 11 Pro Wireframe.png" alt="">
                 </div>
-                   <div class="col-md-6 ourright">
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-6 ourright">
                    <h2 class="mt-5">
                     Download Our App
                    </h2>
@@ -570,21 +666,21 @@ made my website look better.
             </div>
           
             <div class="row justify-content-end align-items-center">
-                <div class="col-md-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 inputval">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="">Your Name</label>
                         <input placeholder="Input your name" type="text" class="form-control inputsubs" id="exampleInputEmail1" aria-describedby="emailHelp">
                        
                       </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 inputval">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="">Your Email</label>
                         <input placeholder="Input your email" type="email" class="form-control inputsubs" id="exampleInputEmail1" aria-describedby="emailHelp">
                     
                       </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                  <button type="button" class="buttonsubs">
                       Subscribe
                  </button>

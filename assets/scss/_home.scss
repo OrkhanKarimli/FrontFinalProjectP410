@@ -1,0 +1,663 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.overflow-y {
+  overflow-y: hidden;
+}
+.none {
+  transform: translateX(-100%);
+  transition: all 0.9s 0.5s ease-out;
+}
+.loader1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  transition: 0.3s all ease;
+  z-index: 999;
+}
+.block {
+  display: block;
+}
+.headmenu {
+  padding-top: 1%;
+}
+.main {
+  background-image: url(../images/home/ds5.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-menu {
+  color: white;
+}
+.eco {
+  div {
+    margin-right: 3%;
+    p {
+      color: $button-color;
+    }
+  }
+}
+.homebtn1 {
+  button {
+    margin-top: 20%;
+    margin-bottom: 25%;
+    font-size: 16px;
+    padding: 6px 25px;
+    background-color: $button-color;
+    color: white;
+    border-radius: 3px;
+    border: none;
+  }
+}
+.sectionbtn2 {
+  button {
+    margin-bottom: 25%;
+    font-size: 16px;
+    padding: 6px 25px;
+    background-color: $button-color;
+    color: white;
+    border-radius: 3px;
+    border: none;
+  }
+}
+.loader {
+  width: 11.7em;
+  height: 4.2em;
+  font-size: 20px;
+  position: relative;
+  color: black;
+  transition: 0.3s all ease;
+}
+
+.car {
+  position: absolute;
+  width: inherit;
+  height: 2em;
+  background-color: currentColor;
+  top: 1.5em;
+  border-radius: 0 5em 1em 0 / 0 4em 1em 0;
+  animation: run 0.25s linear infinite;
+  transition: 0.3s all ease;
+}
+
+@keyframes run {
+  0% {
+    transform: translate(0.2em, 0.1em);
+  }
+
+  20% {
+    transform: translate(0.1em, 0.2em);
+  }
+
+  40% {
+    transform: translate(0.1em, -0.1em);
+  }
+
+  60% {
+    transform: translate(-0.1em, 0.2em);
+  }
+
+  80% {
+    transform: translate(-0.1em, 0.1em);
+  }
+
+  100% {
+    transform: translate(0.2em, 0.1em);
+  }
+}
+
+.car::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0.6em solid transparent;
+  top: -0.5em;
+  border-left-width: 0;
+  border-right-color: currentColor;
+  transform-origin: left;
+  transform: rotate(-45deg);
+  transition: 0.3s all ease;
+}
+
+.body {
+  position: absolute;
+  width: 7.5em;
+  height: 3.5em;
+  box-sizing: border-box;
+  border: 0.4em solid;
+  top: -1.5em;
+  left: 1.2em;
+  border-radius: 3em 4.5em 0 0 / 3em 4em 0 0;
+  transition: 0.3s all ease;
+}
+
+.body::before {
+  content: "";
+  position: absolute;
+  width: 3.5em;
+  height: inherit;
+  background-color: currentColor;
+  border-top-left-radius: inherit;
+  top: -0.4em;
+  left: -0.4em;
+  transition: 0.3s all ease;
+}
+
+.wheels::before,
+.wheels::after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 2.6em;
+  height: 2.6em;
+  background-color: #333;
+  border-radius: 50%;
+  bottom: -1em;
+  border: 0.3em solid #333;
+  background-image: linear-gradient(
+      135deg,
+      transparent 45%,
+      currentColor 46%,
+      currentColor 54%,
+      transparent 55%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 45%,
+      currentColor 46%,
+      currentColor 54%,
+      transparent 55%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 45%,
+      currentColor 46%,
+      currentColor 54%,
+      transparent 55%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 45%,
+      currentColor 46%,
+      currentColor 54%,
+      transparent 55%
+    ),
+    radial-gradient(
+      currentColor 29%,
+      transparent 30%,
+      transparent 50%,
+      currentColor 51%
+    );
+  animation: rotating 0.5s linear infinite;
+  transition: 0.3s all ease;
+}
+
+.wheels::before {
+  left: 1.2em;
+  transition: 0.3s all ease;
+}
+
+.wheels::after {
+  right: 0.8em;
+  transition: 0.3s all ease;
+}
+
+@keyframes rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.strikes {
+  position: absolute;
+  width: 1em;
+  height: inherit;
+  left: -1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.3s all ease;
+}
+
+.strikes span {
+  height: 0.1em;
+  background-color: black;
+  animation: drift 0.2s linear infinite;
+  animation-delay: calc(var(--n) * -0.05s);
+  transition: 0.3s all ease;
+}
+
+@keyframes drift {
+  from {
+    transform: translate(3.5em);
+  }
+
+  to {
+    transform: translate(-8em);
+    filter: opacity(0);
+  }
+}
+
+.strikes span:nth-child(1) {
+  --n: 1;
+}
+
+.strikes span:nth-child(2) {
+  --n: 2;
+}
+
+.strikes span:nth-child(3) {
+  --n: 3;
+}
+
+.strikes span:nth-child(4) {
+  --n: 4;
+}
+
+.strikes span:nth-child(5) {
+  --n: 5;
+}
+.our-collection {
+  background-color: #f7f7fcff;
+  padding-top: 13%;
+}
+
+
+.divcolimage8{
+  position: relative;
+  img{
+      width: 100%;
+     height: 400px;
+  }
+.divcontcol8{
+position: absolute;
+
+top: 45%;
+left: 5%;
+h6{
+  margin-bottom: 10%;
+  color: #EB9195FF;
+}
+h1{
+  margin-bottom: 20%;
+  color: white;
+}
+span{
+  color: #EB9195FF;
+}
+.colarrow{
+  margin-top: 16%;
+  color: white;
+}
+}
+}
+.owl-nav{
+  display: none;
+}
+.owl-dots{
+  display: none;
+}
+.icon-left {
+  margin-right: 6%;
+}
+.iconmain {
+  padding: 1px 8px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: $button-color;
+}
+.iconmain:hover {
+  background-color: $button-color;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all ease-in;
+}
+.collarge {
+  .col8cont {
+    // height: 400px;
+    // position: relative;
+    // padding: 0% 0% 10% 4%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-end;
+    color: white;
+    height: 100%;
+    position: relative;
+    p,
+    h6 {
+      color: #eb9195ff;
+    }
+    img{
+      height: 100%;
+      
+    }
+  }
+}
+
+.colsmall {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+  }
+}
+.info {
+  p {
+    margin-right: 2%;
+  }
+}
+.expcol6img {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 544px;
+  }
+}
+.experiences {
+  background-color: #f7f7fcff;
+  padding-top: 13%;
+  padding-bottom: 12%;
+}
+.exptext {
+  p {
+    margin-top: 5%;
+
+    color: #9a9ab0;
+  }
+}
+.expcount {
+  margin-top: 5%;
+  #first,
+  #firstspan {
+    color: $button-color;
+  }
+
+  h2,
+  p {
+    margin-right: 4%;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+.choose {
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #c5010a;
+  p {
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+.choosecol6 {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 608px;
+  }
+}
+.choosecircle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e2e2ea;
+}
+.cusinfo {
+  margin-bottom: 4%;
+}
+.brands {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+.brand {
+  .colimg {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+.newitems {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #e5e5e5;
+}
+.w211 {
+  h3,
+  p {
+    color: white;
+  }
+  h4 {
+    color: $button-color;
+  }
+
+  background-image: url(../images/home/w213.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 822px;
+  position: relative;
+  border-radius: 4px;
+}
+.w211::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+.cars {
+  height: 406px;
+  margin-bottom: 3%;
+  border-radius: 4px;
+}
+.w213 {
+  h3,
+  p {
+    color: white;
+  }
+  h4 {
+    color: $button-color;
+  }
+
+  background-image: url(../images/home/w211.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+.w213::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+.audirs6 {
+  h3,
+  p {
+    color: white;
+  }
+  h4 {
+    color: $button-color;
+  }
+
+  background-image: url(../images/home/audirs6.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+.audirs6::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+.f10 {
+  h3,
+  p {
+    color: white;
+  }
+  h4 {
+    color: $button-color;
+  }
+
+  background-image: url(../images/home/f10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+.f10::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+.f30 {
+  h3,
+  p {
+    color: white;
+  }
+  h4 {
+    color: $button-color;
+  }
+
+  background-image: url(../images/home/f30.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+.f30::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+.about-us {
+  padding-top: 8%;
+  padding-bottom: 4%;
+  background-color: #e5e5e5;
+}
+.people-saying-right {
+  background-color: white;
+  padding: 6% 9%;
+  height: 100%;
+
+  h6 {
+    color: $button-color;
+  }
+  #p1 {
+    color: #92929d;
+  }
+}
+.owcar {
+  img {
+    width: 100%;
+  }
+}
+.ourapp {
+  padding-top: 9%;
+}
+.ourright {
+  ul {
+    li {
+      i {
+        margin-right: 2%;
+        color: $button-color;
+      }
+      font-weight: bold;
+    }
+  }
+}
+.ourleft {
+  img {
+    width: 100%;
+  }
+}
+#lastli {
+  margin-bottom: 20%;
+}
+
+.circlemain{
+  flex-direction: column;
+}
+.menu{
+  color: white;
+  background-color: transparent;
+
+}
+
+
+
+@media (max-width: 991px){
+  .mediafix{
+    img{
+      height: 100%;
+    }
+  }
+  .w211{
+    margin-bottom: 4%;
+  }
+  .circlemain{
+    flex-direction: column;
+  }
+  
+}
+@media (max-width: 576px){
+  .w211{
+    margin-bottom: 4%;
+  }
+  .subscribe .col-md-3{
+    width: 100%;
+  }
+  .divcolimage8{
+    margin-bottom: 4%;
+  }
+  .circlemain{
+    flex-direction:row;
+  }
+
+    .inputval{
+      width: 100% !important;
+    }
+}

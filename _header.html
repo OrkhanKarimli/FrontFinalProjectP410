@@ -1,36 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <nav class="row">
-      <div class="col-md-2">
-        <div class="logo">
-          <img src="assets/images/home/logo.png" alt="logo" />
+<body>
+  
+  <div class="container headmenu mainnav">
+<div class="row">
+  <div class="col-md-2 ">
+      <div class="logo">
+        <img src="assets/images/home/logo.png" alt="logo" />
+      </div>
+    </div>
+    <div class="col-md-7 d-flex justify-content-center flex-column">
+      <ul class="d-flex mainul justify-content-between align-items-center">
+        <li class="yoxla">Home</li>
+        <li>Explore</li>
+        <li>Showroom</li>
+        <li>Credit Simulation</li>
+        <li>Contac Us</li>
+        <li>
+          Page <span><i class="fas fa-chevron-down"></i></span>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-3 d-flex justify-content-center align-items-center">
+      <div class="round"></div>
+      <div class="homebtn">
+        <button class="text-capitalize">add your item</button>
+      </div>
+    </div>
+</div>
+
+  </div>
+  <div class="container headmenu mimimenumain">
+    <div class="row">
+      <div class="mimimenu col-md-12">
+       <h3 class="mini-menu-text">MENU</h3>
+        <div class="icon-right-mini">
+          <i class="fas fa-bars iconclick"></i>
         </div>
+         <div class="sil">
+        <ul class="d-flex mainul justify-content-between align-items-center flex-column showmenu">
+        <li class="yoxla">Home</li>
+        <li>Explore</li>
+        <li>Showroom</li>
+        <li>Credit Simulation</li>
+        <li>Contac Us</li>
+        <li>Sign In</li>
+        <li>Log In</li>
+        <li>
+          Page <span><i class="fas fa-chevron-down"></i></span>
+        </li>
+      </ul>
       </div>
-      <div class="col-md-7 d-flex justify-content-center flex-column">
-        <ul class="d-flex mainul justify-content-between align-items-center">
-          <li>Home</li>
-          <li>Explore</li>
-          <li>Showroom</li>
-          <li>Credit Simulation</li>
-          <li>Contac Us</li>
-          <li>
-            Page <span><i class="fas fa-chevron-down"></i></span>
-          </li>
-        </ul>
       </div>
-      <div class="col-md-3 d-flex justify-content-center align-items-center">
-        <div class="round"></div>
-        <div class="homebtn">
-          <button class="text-capitalize">add your item</button>
-        </div>
-      </div>
-    </nav>
-  </body>
-</html>
+    
+      
+    </div>
+
+  </div>
+    
+  <script>
+    $(".iconclick").click(function(swing){
+    $(".sil").slideToggle();
+    });
+  </script>
+  
+
+</body>
