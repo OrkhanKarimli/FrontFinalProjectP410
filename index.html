@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body class="overflow-y" >
+  <body class="overflow-y"  >
     <!-- add body class class="overflow-y" -->
     <div class="loader1"></div>
 
@@ -176,16 +176,22 @@
               </p>
               <div class="expcount d-flex mt-5 justify-content-between">
                 <div>
-                  <h1 id="first">1000+</h1>
+                  <h1 id="first" data-purecounter-start="0" 
+                  data-purecounter-end="1000"
+                  class="purecounter"></h1>
                   <p id="firstspan">Car Sold</p>
                 </div>
 
                 <div>
-                  <h1>235</h1>
+                  <h1 data-purecounter-start="0" 
+                  data-purecounter-end="235"
+                  class="purecounter"></h1>
                   <p>Customers</p>
                 </div>
                 <div>
-                  <h1>1100</h1>
+                  <h1 data-purecounter-start="0" 
+                  data-purecounter-end="1100"
+                  class="purecounter"></h1>
                   <p>Dealer</p>
                 </div>
               </div>
@@ -578,12 +584,13 @@ made my website look better.
         </div>
     </section>
     <footer>
-    
+  
     </footer>
     <script src="assets/libs/js/jquery.js"></script>
     <script src="assets/libs/js/carousel.js"></script>
     <script src="assets/libs/js/niceselect.js"></script>
     <script src="assets/libs/js/counter.js"></script>
+    <script src="node_modules/@srexi/purecounterjs/dist/purecounter.js"></script>
     <script src="assets/js/index.js"></script>
   </body>
 </html>

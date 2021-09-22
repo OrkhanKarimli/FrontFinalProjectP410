@@ -1,9 +1,10 @@
 $(document).ready(function () {
   $(".loader1").load("_loading.html");
-    $("header").addClass("container,headmenu")
+    $("header").addClass("container,headmenu");
   $(".nice-select").niceSelect();
   
   $("header").load("_header.html");
+  $("footer").load("_footer.html");
   
   setTimeout(function(){ 
      
