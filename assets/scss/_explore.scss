@@ -144,3 +144,23 @@ text-align: center;
     text-align: center;
     margin-right: 5%;
 }
+@media (max-width: 991px){
+.explore{
+    padding-top: 10%;
+}
+.allitems{
+    margin-top: 3%;
+   }
+}
+@media (max-width: 576px){
+    .explore{
+        padding-top: 12%;
+    }
+    .btnhome{
+        margin-top: 3%;
+    margin-left: 30%;
+    }
+    .allitems{
+     margin-top: 6%;
+    }
+}
