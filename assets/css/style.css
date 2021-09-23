@@ -53,7 +53,7 @@ body {
   background-color: white;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  z-index: 999;
+  z-index: 1100;
 }
 
 .block {
@@ -568,7 +568,7 @@ body {
   left: 0;
   right: 0;
   position: fixed;
-  z-index: 10000;
+  z-index: 999;
 }
 
 .mimimenu .mini-menu-text {
@@ -978,4 +978,85 @@ footer .footer-content .footer-bottom p {
 
 .strikes span:nth-child(5) {
   --n: 5;
+}
+
+.exploremain1 {
+  background-color: #C5010A;
+}
+
+.explore {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.home-inventory {
+  padding-top: 8%;
+  background-color: white;
+}
+
+.inventoryinp {
+  margin-bottom: 1%;
+}
+
+.btnhome {
+  background-color: #FA3C45;
+  border-color: transparent;
+}
+
+.btnhome:hover {
+  background-color: #FA3C45;
+}
+
+#all {
+  color: #FA3C45;
+}
+
+.newused {
+  color: #9A9AB0;
+}
+
+.xett::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  display: inline-block;
+  background-color: #E1E1E1;
+}
+
+.teslaimg {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+
+.pcontent p {
+  margin-right: 4%;
+}
+
+.p1ch p {
+  font-size: 12px;
+}
+
+.combo {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.details {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.details button {
+  padding: 2% 15%;
+  background-color: #C5010A;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  border-radius: 3px;
+  border: none;
 }

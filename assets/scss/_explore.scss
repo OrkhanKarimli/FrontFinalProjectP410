@@ -1,0 +1,70 @@
+.exploremain1{
+    background-color: $footer-color;
+}
+.explore{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+.home-inventory{
+    padding-top: 8%;
+    background-color: white;
+}
+.inventoryinp{
+    margin-bottom: 1%;
+}
+.btnhome{
+    background-color: #FA3C45;
+    border-color: transparent;
+}
+.btnhome:hover{
+    background-color: #FA3C45;
+    
+
+}
+#all{
+color: #FA3C45;
+}
+.newused{
+    color: #9A9AB0;
+}
+.xett::before{
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: inline-block;
+    background-color: #E1E1E1;
+}
+.teslaimg{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+.pcontent{
+    p{
+        margin-right: 4%;
+    }
+   
+}
+.p1ch{
+    p{
+        
+       font-size: 12px;  
+    }
+    
+}
+.combo{
+    justify-content: space-between;
+}
+.details{
+    align-self: center;
+    button{
+        padding: 2% 15%;
+        background-color: $footer-color;
+        align-self: center;
+        color: white;
+        border-radius: 3px;
+        border: none;
+
+    }
+}
