@@ -86,9 +86,7 @@ $(right).on("click",function(){
 });
 
 
-$(".yoxla").on("click",function(){
-  console.log("salam")
-})
+
 
 });
 
