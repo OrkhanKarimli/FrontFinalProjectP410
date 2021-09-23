@@ -24,18 +24,18 @@ async function getCars() {
       <div class="row">
        <div class="col-md-4">
            <div class="teslaimg">
-               <img src="" alt="">
+               <img src=assets/images/${item.img_src} alt="">
            </div>
 
           </div>
           <div class="col-md-8">
-         <h6>
+         <h6 id="marka">
          ${item.marka}
          </h6>
          <h3>
          ${item.model}
              <span>
-                 (New)
+                 (New=${item.new})
              </span>
          </h3>
          <div class="pcontent d-flex p1ch">
@@ -50,7 +50,7 @@ async function getCars() {
       </div>
       <div class="combo d-flex">
          <h1 class="pricechoose">
-         ${item.price}$
+         ${item.price}€
       </h1>
          <div class="details">
               <button>Details</button>

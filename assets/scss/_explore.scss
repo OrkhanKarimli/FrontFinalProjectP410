@@ -38,7 +38,7 @@ color: #FA3C45;
 .teslaimg{
     width: 100%;
     height: 200px;
-    background-color: red;
+
 }
 .pcontent{
     p{
@@ -67,4 +67,80 @@ color: #FA3C45;
         border: none;
 
     }
+}
+.teslaimg{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+#marka{
+    color: $footer-color;
+}
+.pricechoose{
+    color: $button-color;
+}
+.advertesla{
+    padding-top: 45%;
+    text-align: center;
+    height: 560px;
+    background-color: #C5010A;
+    border-radius: 3px;
+    color: white;
+}
+.btnadver{
+    button{
+        margin-top: 15%;
+        padding: 2% 5%;
+    background-color: $footer-color;
+    align-self: center;
+    color: white;
+    border-radius: 5px;
+    border-color: white; 
+
+    }
+   
+}
+.teslacontact{
+    padding-top: 25%;
+    text-align: center;
+    height: 320px;
+    background-color: white;
+    border-radius: 3px;
+    color: white;
+    h3{
+        color: black;
+    }
+    h5{
+        color: #92929D;
+    }
+}
+
+.btnconct{
+    text-align: center;
+    button{
+        margin-top: 15%;
+        padding: 2% 8%;
+    background-color: $footer-color;
+    align-self: center;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+    }
+}
+#firstspan{
+background-color: #C5010A;
+padding: 1% 2%;
+color: white;
+margin-right: 5%;
+text-align: center;
+
+
+}
+.ededler{
+    padding: 1% 2%;
+    color: #92929D;
+    text-align: center;
+    margin-right: 5%;
 }
