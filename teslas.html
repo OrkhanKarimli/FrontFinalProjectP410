@@ -60,6 +60,7 @@
             </div>
 
             <div class="col-md-12 carsdescription">
+              
               <h4 style="font-weight: bold">Description</h4>
               <p class="mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -565,39 +566,62 @@
               <div class="col-md-12 teslacontact1 modelfixingtesla">
                 <h3 class="mb-4">Contact Dealer</h3>
                 <div class="container">
-                  <div class="row">
+                  <form class="row customvalidate" novalidate>
                     <div class="mb-3 col-md-12">
-                      <input
+                        <div class="form-outline">
+                       <input
                         type="text"
                         class="form-control selectinp"
                         placeholder="Your Name"
-                        id="exampleInputEmail1"
+                        id="validationCustom01"
                         aria-describedby="emailHelp"
-                      />
+                        required />
+                        <div class="invalid-feedback">
+                            Adınızı Daxil Edin!
+                          </div>
+                          <div class="valid-feedback"></div>
+                        </div>
+
                     </div>
                     <div class="mb-3 col-md-12">
-                      <input
+                        <div class="form-outline">
+                         <input
                         type="email"
                         class="form-control selectinp"
                         placeholder="Your Email"
-                        id="exampleInputEmail1"
+                        id="validationCustom01"
                         aria-describedby="emailHelp"
-                      />
+                     required />
+                     <div class="invalid-feedback">
+                        Mailinizi Daxil Edin!
+                      </div>
+                      <div class="valid-feedback"></div>
                     </div>
-                    <div class="mb-3 col-md-12">
-                      <textarea
+                        </div>
+                     <div class="mb-3 col-md-12">
+                        <div class="form-outline">
+                            <textarea
                         class="form-control selectinp"
                         placeholder="Your Message"
-                        id="exampleFormControlTextarea3"
-                        rows="7"
+                        id="validationCustom01"
+                        rows="7" required
                       ></textarea>
+                      <div class="invalid-feedback">
+                        Mesajınızı Daxil Edin!
+                      </div>
+                      <div class="valid-feedback"></div> 
+                        </div>
+                     
                     </div>
+                </form>
+                <div class="btnconct">
+                    <button type="submit" class="teslabtn">Send Messages</button>
                   </div>
-                  <div class="btnconct">
-                    <button class="teslabtn">Send Messages</button>
-                  </div>
+                    </div>
+                    
+                  
+                  
                 </div>
-              </div>
               <div class="teslacustomer col-md-12 text-center">
                 <h5>Customer Advisor</h5>
                 <div class="customerimg"></div>

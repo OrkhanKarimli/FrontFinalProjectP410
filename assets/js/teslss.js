@@ -24,4 +24,15 @@ $(document).ready(function () {
     $( "#ac2" ).toggleClass( 'display-inline ms-4');
     
   });
+  const forms = document.querySelectorAll('.customvalidate');
+  let btnvalid=document.querySelector(".teslabtn")
+  Array.prototype.slice.call(forms).forEach((form) => {
+      btnvalid.addEventListener('click', (event) => {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
 });

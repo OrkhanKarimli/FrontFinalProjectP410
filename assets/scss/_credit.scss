@@ -1,0 +1,41 @@
+.creditmain{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.credityoutube{
+    height: 440px;
+    position: relative;
+    background-image: url(../images/credit/265562.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.playicon1{
+    position: absolute;
+    left: 48%;
+    top: 43%;
+    font-size: 2.5rem;
+    color: #C5010A;
+    cursor: pointer;
+    a{
+        color: rgb(197, 1, 10);  
+    }
+}
+.btnprm{
+    padding: 1% 2%;
+    background-color: $button-color;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    border: none;
+}
+.btnresfree{
+    padding: 1% 2%;
+    background-color: transparent;
+    border-radius: 4px;
+    color: $button-color;
+    display: inline-block;
+    border: 1px solid $button-color;
+    margin-left: 2%;
+}
