@@ -1492,6 +1492,10 @@ footer .footer-content .footer-bottom p {
   border-radius: 3px;
 }
 
+.display-inline {
+  display: inline-block;
+}
+
 @media (max-width: 991px) {
   .teslas {
     padding-top: 9%;

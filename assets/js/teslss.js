@@ -16,8 +16,12 @@ $(document).ready(function () {
   });
   $("#ac1").click(function(){
     $(".baglanan1").slideToggle();
+    $( "#ac1" ).toggleClass( 'display-inline');
+
   });
   $("#ac2").click(function(){
     $(".baglanan2").slideToggle();
+    $( "#ac2" ).toggleClass( 'display-inline ms-4');
+    
   });
 });
