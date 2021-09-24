@@ -14,4 +14,10 @@ $(document).ready(function () {
   $(".playiconak").magnificPopup({
     type: "iframe",
   });
+  $("#ac1").click(function(){
+    $(".baglanan1").slideToggle();
+  });
+  $("#ac2").click(function(){
+    $(".baglanan2").slideToggle();
+  });
 });

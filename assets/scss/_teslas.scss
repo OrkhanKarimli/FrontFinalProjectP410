@@ -282,3 +282,27 @@
     left: 2%;
     border-radius: 3px;
   }
+  @media (max-width: 991px){
+    .teslas{
+        padding-top: 9%;
+      }
+   .carprice{
+       padding-left: 0%;
+   }
+    
+  }
+  @media (max-width: 576px){
+  .teslas{
+    padding-top: 14%;
+  }
+  .carprice{
+    padding-left: 16%;
+}
+  }
+  .playicon{
+      a{
+        color: rgb(197, 1, 10);  
+      }
+
+     
+  }
