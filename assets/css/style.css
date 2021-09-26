@@ -127,7 +127,7 @@ body {
 
 .divcolimage8 .divcontcol8 h6 {
   margin-bottom: 10%;
-  color: #EB9195FF;
+  color: #eb9195ff;
 }
 
 .divcolimage8 .divcontcol8 h1 {
@@ -136,7 +136,7 @@ body {
 }
 
 .divcolimage8 .divcontcol8 span {
-  color: #EB9195FF;
+  color: #eb9195ff;
 }
 
 .divcolimage8 .divcontcol8 .colarrow {
@@ -539,7 +539,6 @@ body {
 }
 
 .mainul li {
-  margin-right: 4%;
   color: white;
 }
 
@@ -613,7 +612,7 @@ body {
 }
 
 footer {
-  background-color: #C5010A;
+  background-color: #c5010a;
   padding-top: 7.5%;
   padding-bottom: 2.5%;
 }
@@ -986,11 +985,11 @@ footer .footer-content .footer-bottom p {
 }
 
 .exploremain1 {
-  background-color: #C5010A;
+  background-color: #c5010a;
 }
 
 .exploremain {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .explore {
@@ -1000,12 +999,12 @@ footer .footer-content .footer-bottom p {
 }
 
 .numbers {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .home-inventory {
   padding-top: 8%;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .inventoryinp {
@@ -1013,20 +1012,20 @@ footer .footer-content .footer-bottom p {
 }
 
 .btnhome {
-  background-color: #FA3C45;
+  background-color: #fa3c45;
   border-color: transparent;
 }
 
 .btnhome:hover {
-  background-color: #FA3C45;
+  background-color: #fa3c45;
 }
 
 #all {
-  color: #FA3C45;
+  color: #fa3c45;
 }
 
 .newused {
-  color: #9A9AB0;
+  color: #9a9ab0;
 }
 
 .xett::before {
@@ -1034,12 +1033,17 @@ footer .footer-content .footer-bottom p {
   height: 2px;
   width: 100%;
   display: inline-block;
-  background-color: #E1E1E1;
+  background-color: #e1e1e1;
 }
 
 .teslaimg {
   width: 100%;
   height: 200px;
+}
+
+.teslaimg img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .pcontent p {
@@ -1064,7 +1068,7 @@ footer .footer-content .footer-bottom p {
 
 .details button {
   padding: 2% 15%;
-  background-color: #C5010A;
+  background-color: #c5010a;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -1079,7 +1083,7 @@ footer .footer-content .footer-bottom p {
 }
 
 #marka {
-  color: #C5010A;
+  color: #c5010a;
 }
 
 .pricechoose {
@@ -1090,7 +1094,7 @@ footer .footer-content .footer-bottom p {
   padding-top: 45%;
   text-align: center;
   height: 560px;
-  background-color: #C5010A;
+  background-color: #c5010a;
   border-radius: 3px;
   color: white;
 }
@@ -1098,7 +1102,7 @@ footer .footer-content .footer-bottom p {
 .btnadver button {
   margin-top: 15%;
   padding: 2% 5%;
-  background-color: #C5010A;
+  background-color: #c5010a;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -1121,7 +1125,7 @@ footer .footer-content .footer-bottom p {
 }
 
 .teslacontact h5 {
-  color: #92929D;
+  color: #92929d;
 }
 
 .btnconct {
@@ -1131,7 +1135,7 @@ footer .footer-content .footer-bottom p {
 .btnconct button {
   margin-top: 15%;
   padding: 2% 8%;
-  background-color: #C5010A;
+  background-color: #c5010a;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -1141,7 +1145,7 @@ footer .footer-content .footer-bottom p {
 }
 
 #firstspan {
-  background-color: #C5010A;
+  background-color: #c5010a;
   padding: 1% 2%;
   color: white;
   margin-right: 5%;
@@ -1150,7 +1154,7 @@ footer .footer-content .footer-bottom p {
 
 .ededler {
   padding: 1% 2%;
-  color: #92929D;
+  color: #92929d;
   text-align: center;
   margin-right: 5%;
 }
@@ -1178,7 +1182,7 @@ footer .footer-content .footer-bottom p {
 }
 
 .teslasmain1 {
-  background-color: #C5010A;
+  background-color: #c5010a;
 }
 
 .teslas {
@@ -1189,12 +1193,12 @@ footer .footer-content .footer-bottom p {
 
 .teslainfo {
   padding-top: 8%;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .carprice {
   padding-left: 5%;
-  color: #C5010A;
+  color: #c5010a;
 }
 
 .maincarimages {
@@ -1222,7 +1226,7 @@ footer .footer-content .footer-bottom p {
 }
 
 .carsdescription p {
-  color: #92929D;
+  color: #92929d;
 }
 
 .teslayoutube {
@@ -1239,7 +1243,7 @@ footer .footer-content .footer-bottom p {
   left: 48%;
   top: 43%;
   font-size: 2.5rem;
-  color: #C5010A;
+  color: #c5010a;
   cursor: pointer;
 }
 
@@ -1254,7 +1258,7 @@ footer .footer-content .footer-bottom p {
 
 .carmil {
   margin-left: 3%;
-  color: #92929D;
+  color: #92929d;
 }
 
 .xett1::before {
@@ -1264,16 +1268,16 @@ footer .footer-content .footer-bottom p {
   -webkit-transform: translateY(-17px);
           transform: translateY(-17px);
   display: inline-block;
-  background-color: #E1E1E1;
+  background-color: #e1e1e1;
 }
 
 .checkclass i {
-  color: #FA3C45;
+  color: #fa3c45;
   font-size: 1.3rem;
 }
 
 .colfeattext {
-  color: #92929D;
+  color: #92929d;
 }
 
 .teslacontact1 {
@@ -1290,18 +1294,18 @@ footer .footer-content .footer-bottom p {
 }
 
 .teslacontact1 h5 {
-  color: #92929D;
+  color: #92929d;
 }
 
 .btnconct .teslabtn {
   float: left;
   margin-left: 1%;
   padding: 4% 4%;
-  background-color: #FA3C45;
+  background-color: #fa3c45;
 }
 
 .selectinp {
-  border-color: #FA3C45;
+  border-color: #fa3c45;
   padding: 2% 3% 2% 3%;
   border-radius: 9px;
 }
@@ -1326,7 +1330,7 @@ footer .footer-content .footer-bottom p {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #E2E2EA;
+  background-color: #e2e2ea;
   margin-left: 39%;
   margin-bottom: 2%;
 }
@@ -1334,7 +1338,7 @@ footer .footer-content .footer-bottom p {
 .viewprof {
   margin-top: 3%;
   padding: 3% 5%;
-  background-color: #FA3C45;
+  background-color: #fa3c45;
   color: white;
   border-radius: 8px;
   border: none;
@@ -1353,13 +1357,13 @@ footer .footer-content .footer-bottom p {
 }
 
 #chooseonefeat {
-  color: #FA3C45;
+  color: #fa3c45;
 }
 
 .featuredimg {
   width: 80px;
   height: 80px;
-  background-color: #E2E2EA;
+  background-color: #e2e2ea;
   border-radius: 4px;
 }
 
@@ -1539,7 +1543,7 @@ footer .footer-content .footer-bottom p {
   width: 144px;
   height: 144px;
   border-radius: 50%;
-  background-color: #E2E2EA;
+  background-color: #e2e2ea;
 }
 
 .customerpriceleft p {
@@ -1591,7 +1595,7 @@ footer .footer-content .footer-bottom p {
 .btncalcmain {
   float: left;
   padding: 1% 2%;
-  background-color: #FA3C45;
+  background-color: #fa3c45;
   color: white;
   border: none;
   border-radius: 5px;
@@ -1608,6 +1612,12 @@ footer .footer-content .footer-bottom p {
   border-radius: 9px;
 }
 
+@media (max-width: 991px) {
+  .customerpriceall {
+    padding-top: 12%;
+  }
+}
+
 @media (max-width: 576px) {
   .customerpricemain1 {
     background: #c5010a;
@@ -1616,6 +1626,9 @@ footer .footer-content .footer-bottom p {
   }
   .customerpriceright {
     margin-top: 5%;
+  }
+  .customerpriceall {
+    padding-top: 12%;
   }
 }
 
@@ -1638,7 +1651,7 @@ footer .footer-content .footer-bottom p {
   left: 48%;
   top: 43%;
   font-size: 2.5rem;
-  color: #C5010A;
+  color: #c5010a;
   cursor: pointer;
 }
 

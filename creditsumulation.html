@@ -1,291 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/libs/css/all.min.css" />
-    <link rel="stylesheet" href="assets/libs/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/libs/css/popup.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="icon" href="assets/icons/jeep.png" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/libs/css/all.min.css" />
+  <link rel="stylesheet" href="assets/libs/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/libs/css/popup.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/icons/jeep.png" />
 </head>
-<body style="background-color: #e5e5e5">
-    <div class="teslasmain">
-        <div class="container-fluid teslasmain1">
-          <header>
-            <nav></nav>
-          </header>
-          <section class="teslas text-center">
-            <h1 class="text-capitalize">Credit Simulation</h1>
-          </section>
-        </div>
-      </div>
-      <section class="container-fluid creditmaintop">
-       <div class="container creditmain">
-        <h6 class="mb-5">Home > Credit Simulation</h6>
-        <div class="row">
-            <div class="col-md-8 creditinfo">
-             
-                <div class="col-md-12 mb-4 credityoutube">
-                    <div class="playicon1">
-                      <a
-                        class="playiconak"
-                        href="https://www.youtube.com/watch?v=AQAgxNVt7YI"
-                        ><i class="far fa-play-circle"></i
-                      ></a>
-                    </div>
-                  </div>
-                  <h4 style="font-weight: bold">Description</h4>
-                  <p class="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-               <section class="loan-calculator col-md-12">
-                 
-                       <h3>Loan Calculator</h3>
-                       <p class="mb-5">What a brand new resource, You can try our resource and explore how it works</p>
-                       <form class="row customvalidate1 calcresultform" novalidate>
-                         <h6>Car Price ($)</h6>
-                        <div class="mb-5 col-md-12">
-                            <div class="form-outline">
-                           <input
-                            type="text"
-                            class="form-control inpcalc inpcheck1"
-                            placeholder="Input your price car"
-                            id="validationCustom01"
-                            aria-describedby="emailHelp"
-                            required />
-                            <div class="invalid-feedback">
-                                Buranı boş saxlamaq olmaz!
-                              </div>
-                              <div class="valid-feedback"></div>
-                            </div>
 
-                        </div>
-                        <div class="mb-5 col-md-12">
-                           <div class="row">
-                             
-                             <div class="col-md-6"> <div class="form-outline">
-                               <h6>
-                              Interest Rate (%)
-                             </h6>
-                              <input
-                             type="text"
-                             class="form-control inpcalc inpcheck"
-                             placeholder="Input your interest rate"
-                             id="validationCustom02"
-                             aria-describedby="emailHelp"
-                          required />
-                          <div class="invalid-feedback">
-                            Buranı boş saxlamaq olmaz!
-                           </div>
-                           <div class="valid-feedback1"></div>
-                         </div></div>
-                             <div class="col-md-6">
-                              <h6>
-                                Periode Month
-                               </h6>
-                              <div class="form-outline">
-                                <input
-                               type="text"
-                               class="form-control inpcalc inpcheck2"
-                               placeholder="Input periode month"
-                               id="validationCustom02"
-                               aria-describedby="emailHelp"
-                            required />
-                            <div class="invalid-feedback">
-                              Buranı boş saxlamaq olmaz!
-                             </div>
-                             <div class="valid-feedback"></div>
-                           </div>
-                             </div>
-                           </div>
-                            </div>
-                            <h6>Down Payment ($)</h6>
-                            <div class="mb-5 col-md-12">
-                              <div class="form-outline">
-                             <input
-                              type="text"
-                              class="form-control inpcalc inpcheck3"
-                              placeholder="Input your down payment"
-                              id="validationCustom01"
-                              aria-describedby="emailHelp"
-                              required />
-                              <div class="invalid-feedback">
-                                  Buranı boş saxlamaq olmaz!
-                                </div>
-                                <div class="valid-feedback"></div>
-                              </div>
-  
-                          </div> 
-                          <div class="btncalc col-md-12">
-                      <button type="submit" class="btncalcmain">Calculate</button>
-                    </div>
-                    </form>
-                   
-               </section>
-               <section class="calc-result">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th scope="col">№</th>
-                      <th scope="col">Tarix</th>
-                      <th scope="col">Aylıq ödəniş</th>
-                      <th scope="col">Qalıq</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                 
-                  </tbody>
-                </table>
-               </section>
+<body class="overflow-y" style="background-color: #e5e5e5">
+    <!-- add body class class="overflow-y" -->
+    <div class="loader1"></div>
+  <div class="teslasmain">
+    <div class="container-fluid teslasmain1">
+      <header>
+        <nav></nav>
+      </header>
+      <section class="teslas text-center">
+        <h1 class="text-capitalize">Credit Simulation</h1>
+      </section>
+    </div>
+  </div>
+  <section class="container-fluid creditmaintop">
+    <div class="container creditmain">
+      <h6 class="mb-5">Home > Credit Simulation</h6>
+      <div class="row">
+        <div class="col-md-8 creditinfo">
+
+          <div class="col-md-12 mb-4 credityoutube">
+            <div class="playicon1">
+              <a class="playiconak" href="https://www.youtube.com/watch?v=AQAgxNVt7YI"><i
+                  class="far fa-play-circle"></i></a>
             </div>
-            <div class="col-md-4">
+          </div>
+          <h4 style="font-weight: bold">Description</h4>
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <section class="loan-calculator col-md-12">
+
+            <h3>Loan Calculator</h3>
+            <p class="mb-5">What a brand new resource, You can try our resource and explore how it works</p>
+            <form class="row customvalidate1 calcresultform" novalidate>
+              <h6>Car Price ($)</h6>
+              <div class="mb-5 col-md-12">
+                <div class="form-outline">
+                  <input type="text" class="form-control inpcalc inpcheck1" placeholder="Input your price car"
+                    id="validationCustom01" aria-describedby="emailHelp" required />
+                  <div class="invalid-feedback">
+                    Buranı boş saxlamaq olmaz!
+                  </div>
+                  <div class="valid-feedback"></div>
+                </div>
+
+              </div>
+              <div class="mb-5 col-md-12">
                 <div class="row">
-                  <div class="col-md-12 advertesla mb-3">
-                    <h3>Special Offer</h3>
-                    <h3>for Today</h3>
-                    <h5>10% Off for New</h5>
-                    <h5>Tesla Model S</h5>
-                    <div class="btnadver">
-                      <button>Details</button>
-                    </div>
-                  </div>
-                  <div class="col-md-12 teslacontact1 modelfixingtesla">
-                    <h3 class="mb-4">Contact Dealer</h3>
-                    <div class="container">
-                      <form class="row customvalidate" novalidate>
-                        <div class="mb-3 col-md-12">
-                            <div class="form-outline">
-                           <input
-                            type="text"
-                            class="form-control selectinp"
-                            placeholder="Your Name"
-                            id="validationCustom01"
-                            aria-describedby="emailHelp"
-                            required />
-                            <div class="invalid-feedback">
-                                Adınızı Daxil Edin!
-                              </div>
-                              <div class="valid-feedback"></div>
-                            </div>
 
-                        </div>
-                        <div class="mb-3 col-md-12">
-                            <div class="form-outline">
-                             <input
-                            type="email"
-                            class="form-control selectinp"
-                            placeholder="Your Email"
-                            id="validationCustom02"
-                            aria-describedby="emailHelp"
-                         required />
-                         <div class="invalid-feedback">
-                            Mailinizi Daxil Edin!
-                          </div>
-                          <div class="valid-feedback"></div>
-                        </div>
-                            </div>
-                         <div class="mb-3 col-md-12">
-                            <div class="form-outline">
-                                <textarea
-                            class="form-control selectinp"
-                            placeholder="Your Message"
-                            id="validationCustom03"
-                            rows="7" required
-                          ></textarea>
-                          <div class="invalid-feedback">
-                            Mesajınızı Daxil Edin!
-                          </div>
-                          <div class="valid-feedback"></div> 
-                            </div>
-                         
-                        </div>
-                    </form>
-                    <div class="btnconct">
-                        <button type="submit" class="teslabtn">Send Messages</button>
+                  <div class="col-md-6">
+                    <div class="form-outline">
+                      <h6>
+                        Interest Rate (%)
+                      </h6>
+                      <input type="text" class="form-control inpcalc inpcheck" placeholder="Input your interest rate"
+                        id="validationCustom02" aria-describedby="emailHelp" required />
+                      <div class="invalid-feedback">
+                        Buranı boş saxlamaq olmaz!
                       </div>
-                        </div>
-                        
-                      
-                      
+                      <div class="valid-feedback1"></div>
                     </div>
                   </div>
-
+                  <div class="col-md-6">
+                    <h6>
+                      Periode Month
+                    </h6>
+                    <div class="form-outline">
+                      <input type="text" class="form-control inpcalc inpcheck2" placeholder="Input periode month"
+                        id="validationCustom02" aria-describedby="emailHelp" required />
+                      <div class="invalid-feedback">
+                        Buranı boş saxlamaq olmaz!
+                      </div>
+                      <div class="valid-feedback"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
-        </div>
-       </div>
+              <h6>Down Payment ($)</h6>
+              <div class="mb-5 col-md-12">
+                <div class="form-outline">
+                  <input type="text" class="form-control inpcalc inpcheck3" placeholder="Input your down payment"
+                    id="validationCustom01" aria-describedby="emailHelp" required />
+                  <div class="invalid-feedback">
+                    Buranı boş saxlamaq olmaz!
+                  </div>
+                  <div class="valid-feedback"></div>
+                </div>
 
-      </section>
-      <section style="background-color: white;" class="ourapp">
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row ourleft">
-                     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                 <img src="assets/images/home/logoes/iPhone 11 Pro Wireframe.png" alt="">
-                </div>
-                   <div class="col-12 col-sm-12 col-md-6 col-lg-6 ourright">
-                   <h2 class="mt-5">
-                    Download Our App
-                   </h2>
-                   <p class="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. 
-                   </p>
-                   <ul>
-                       <li><i class="far fa-check-circle"></i>Best Deals</li>
-                       <li><i class="far fa-check-circle"></i>Sell Your Car</li>
-                       <li><i class="far fa-check-circle"></i>Showroom Events</li>
-                       <li><i class="far fa-check-circle"></i>Car Dealer</li>
-                       <li id="lastli"><i class="far fa-check-circle"></i>Compare Prices</li>
-                   </ul>
-                   <div class="download d-flex mt-5">
-                       <div class="appstore me-4">
-                           <img src="assets/images/home/logoes/Appstore Logo.png" alt="">
-                       </div>
-                       <div class="android">
-                           <img src="assets/images/home/logoes/Google Play Logo.png" alt="">
-                       </div>
-                   </div>
-                </div>
-                </div>
-               
-             
-            </div>
+              </div>
+              <div class="btncalc col-md-12">
+                <button type="submit" class="btncalcmain">Calculate</button>
+              </div>
+            </form>
+
+          </section>
+          <section class="calc-result">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">№</th>
+                  <th scope="col">Tarix</th>
+                  <th scope="col">Aylıq ödəniş</th>
+                  <th scope="col">Qalıq</th>
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+          </section>
         </div>
-    </section>
-    <section class="subscribe">
-        <div class="container text-center">
-            <div class="contentsubs text-center">
-                 <h1>
-                    Wanna try our resource?
-            </h1>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12 advertesla mb-3">
+              <h3>Special Offer</h3>
+              <h3>for Today</h3>
+              <h5>10% Off for New</h5>
+              <h5>Tesla Model S</h5>
+              <div class="btnadver">
+                <button>Details</button>
+              </div>
+            </div>
+            <div class="col-md-12 teslacontact1 modelfixingtesla">
+              <h3 class="mb-4">Contact Dealer</h3>
+              <div class="container">
+                <form class="row customvalidate" novalidate>
+                  <div class="mb-3 col-md-12">
+                    <div class="form-outline">
+                      <input type="text" class="form-control selectinp" placeholder="Your Name" id="validationCustom01"
+                        aria-describedby="emailHelp" required />
+                      <div class="invalid-feedback">
+                        Adınızı Daxil Edin!
+                      </div>
+                      <div class="valid-feedback"></div>
+                    </div>
+
+                  </div>
+                  <div class="mb-3 col-md-12">
+                    <div class="form-outline">
+                      <input type="email" class="form-control selectinp" placeholder="Your Email"
+                        id="validationCustom02" aria-describedby="emailHelp" required />
+                      <div class="invalid-feedback">
+                        Mailinizi Daxil Edin!
+                      </div>
+                      <div class="valid-feedback"></div>
+                    </div>
+                  </div>
+                  <div class="mb-3 col-md-12">
+                    <div class="form-outline">
+                      <textarea class="form-control selectinp" placeholder="Your Message" id="validationCustom03"
+                        rows="7" required></textarea>
+                      <div class="invalid-feedback">
+                        Mesajınızı Daxil Edin!
+                      </div>
+                      <div class="valid-feedback"></div>
+                    </div>
+
+                  </div>
+                </form>
+                <div class="btnconct">
+                  <button type="submit" class="teslabtn">Send Messages</button>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <section style="background-color: white;" class="ourapp">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row ourleft">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="assets/images/home/logoes/iPhone 11 Pro Wireframe.png" alt="">
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 ourright">
+            <h2 class="mt-5">
+              Download Our App
+            </h2>
             <p class="mb-5">
-                What a brand new resource, You can try our resource and explore how it works
-            </p> 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.
+            </p>
+            <ul>
+              <li><i class="far fa-check-circle"></i>Best Deals</li>
+              <li><i class="far fa-check-circle"></i>Sell Your Car</li>
+              <li><i class="far fa-check-circle"></i>Showroom Events</li>
+              <li><i class="far fa-check-circle"></i>Car Dealer</li>
+              <li id="lastli"><i class="far fa-check-circle"></i>Compare Prices</li>
+            </ul>
+            <div class="download d-flex mt-5">
+              <div class="appstore me-4">
+                <img src="assets/images/home/logoes/Appstore Logo.png" alt="">
+              </div>
+              <div class="android">
+                <img src="assets/images/home/logoes/Google Play Logo.png" alt="">
+              </div>
             </div>
-          <button class="btnprm">
-            Premium Resource
-          </button>
-          <button class="btnresfree">
-            Free Resource
-          </button>
+          </div>
         </div>
-    </section>
-    <footer></footer>
-    <script src="assets/libs/js/jquery.js"></script>
-    <script src="assets/libs/js/niceselect.js"></script>
-    <script src="assets/libs/js/popup.js"></script>
-    <script src="assets/js/credit.js"></script>
+
+
+      </div>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="container text-center">
+      <div class="contentsubs text-center">
+        <h1>
+          Wanna try our resource?
+        </h1>
+        <p class="mb-5">
+          What a brand new resource, You can try our resource and explore how it works
+        </p>
+      </div>
+      <button class="btnprm">
+        Premium Resource
+      </button>
+      <button class="btnresfree">
+        Free Resource
+      </button>
+    </div>
+  </section>
+  <footer></footer>
+  <script src="assets/libs/js/jquery.js"></script>
+  <script src="assets/libs/js/niceselect.js"></script>
+  <script src="assets/libs/js/popup.js"></script>
+  <script src="assets/js/credit.js"></script>
 </body>
+
 </html>

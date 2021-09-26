@@ -1,172 +1,163 @@
-.exploremain1{
+.exploremain1 {
+  background-color: $footer-color;
+}
+.exploremain {
+  background-color: #e5e5e5;
+}
+.explore {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+}
+.numbers {
+  background-color: #e5e5e5;
+}
+.home-inventory {
+  padding-top: 8%;
+  background-color: #e5e5e5;
+}
+.inventoryinp {
+  margin-bottom: 1%;
+}
+.btnhome {
+  background-color: #fa3c45;
+  border-color: transparent;
+}
+.btnhome:hover {
+  background-color: #fa3c45;
+}
+#all {
+  color: #fa3c45;
+}
+.newused {
+  color: #9a9ab0;
+}
+.xett::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  display: inline-block;
+  background-color: #e1e1e1;
+}
+.teslaimg {
+  width: 100%;
+  height: 200px;
+  img{
+      object-fit: cover;
+  }
+}
+.pcontent {
+  p {
+    margin-right: 4%;
+  }
+}
+.p1ch {
+  p {
+    font-size: 12px;
+  }
+}
+.combo {
+  justify-content: space-between;
+}
+.details {
+  align-self: center;
+  button {
+    padding: 2% 15%;
     background-color: $footer-color;
-}
-.exploremain{
-background-color: #E5E5E5;;
-}
-.explore{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    color: white;
-}
-.numbers{
-    background-color: #E5E5E5;
-}
-.home-inventory{
-    padding-top: 8%;
-    background-color: #E5E5E5;
-}
-.inventoryinp{
-    margin-bottom: 1%;
-}
-.btnhome{
-    background-color: #FA3C45;
-    border-color: transparent;
-}
-.btnhome:hover{
-    background-color: #FA3C45;
-    
-
-}
-#all{
-color: #FA3C45;
-}
-.newused{
-    color: #9A9AB0;
-}
-.xett::before{
-    content: "";
-    height: 2px;
-    width: 100%;
-    display: inline-block;
-    background-color: #E1E1E1;
-}
-.teslaimg{
-    width: 100%;
-    height: 200px;
-
-}
-.pcontent{
-    p{
-        margin-right: 4%;
-    }
-   
-}
-.p1ch{
-    p{
-        
-       font-size: 12px;  
-    }
-    
-}
-.combo{
-    justify-content: space-between;
-}
-.details{
     align-self: center;
-    button{
-        padding: 2% 15%;
-        background-color: $footer-color;
-        align-self: center;
-        color: white;
-        border-radius: 3px;
-        border: none;
-
-    }
-}
-.teslaimg{
-    img{
-        width: 100%;
-        height: 100%;
-    }
-}
-#marka{
-    color: $footer-color;
-}
-.pricechoose{
-    color: $button-color;
-}
-.advertesla{
-    padding-top: 45%;
-    text-align: center;
-    height: 560px;
-    background-color: #C5010A;
-    border-radius: 3px;
     color: white;
+    border-radius: 3px;
+    border: none;
+  }
 }
-.btnadver{
-    button{
-        margin-top: 15%;
-        padding: 2% 5%;
+.teslaimg {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+#marka {
+  color: $footer-color;
+}
+.pricechoose {
+  color: $button-color;
+}
+.advertesla {
+  padding-top: 45%;
+  text-align: center;
+  height: 560px;
+  background-color: #c5010a;
+  border-radius: 3px;
+  color: white;
+}
+.btnadver {
+  button {
+    margin-top: 15%;
+    padding: 2% 5%;
     background-color: $footer-color;
     align-self: center;
     color: white;
     border-radius: 5px;
-    border-color: white; 
-
-    }
-   
+    border-color: white;
+  }
 }
-.teslacontact{
-    padding-top: 25%;
-    text-align: center;
-    height: 320px;
-    background-color: white;
-    border-radius: 3px;
-    color: white;
-    h3{
-        color: black;
-    }
-    h5{
-        color: #92929D;
-    }
+.teslacontact {
+  padding-top: 25%;
+  text-align: center;
+  height: 320px;
+  background-color: white;
+  border-radius: 3px;
+  color: white;
+  h3 {
+    color: black;
+  }
+  h5 {
+    color: #92929d;
+  }
 }
 
-.btnconct{
-    text-align: center;
-    button{
-        margin-top: 15%;
-        padding: 2% 8%;
+.btnconct {
+  text-align: center;
+  button {
+    margin-top: 15%;
+    padding: 2% 8%;
     background-color: $footer-color;
     align-self: center;
     color: white;
     border-radius: 5px;
     border: none;
-    
-    }
+  }
 }
-#firstspan{
-background-color: #C5010A;
-padding: 1% 2%;
-color: white;
-margin-right: 5%;
-text-align: center;
-
-
+#firstspan {
+  background-color: #c5010a;
+  padding: 1% 2%;
+  color: white;
+  margin-right: 5%;
+  text-align: center;
 }
-.ededler{
-    padding: 1% 2%;
-    color: #92929D;
-    text-align: center;
-    margin-right: 5%;
+.ededler {
+  padding: 1% 2%;
+  color: #92929d;
+  text-align: center;
+  margin-right: 5%;
 }
-@media (max-width: 991px){
-.explore{
+@media (max-width: 991px) {
+  .explore {
     padding-top: 10%;
-}
-.allitems{
+  }
+  .allitems {
     margin-top: 3%;
-   }
+  }
 }
-@media (max-width: 576px){
-    .explore{
-        padding-top: 12%;
-    }
-    .btnhome{
-        margin-top: 3%;
+@media (max-width: 576px) {
+  .explore {
+    padding-top: 12%;
+  }
+  .btnhome {
+    margin-top: 3%;
     margin-left: 30%;
-    }
-    .allitems{
-     margin-top: 6%;
-    }
+  }
+  .allitems {
+    margin-top: 6%;
+  }
 }

@@ -1,90 +1,92 @@
-.customerpricemain1{
-    background: rgb(250,60,69);
-    background: linear-gradient(
-        90deg, #fa3c45 45%, #c5010a 29%);
-
+.customerpricemain1 {
+  background: rgb(250, 60, 69);
+  background: linear-gradient(90deg, #fa3c45 45%, #c5010a 29%);
 }
-.customerpriceall{
-    padding-top: 8%;
-    padding-bottom: 5%;
+.customerpriceall {
+  padding-top: 8%;
+  padding-bottom: 5%;
 }
-.customerpersonimg{
-    width: 144px;
-    height: 144px;
-    border-radius: 50%;
-    background-color: #E2E2EA;
+.customerpersonimg {
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  background-color: #e2e2ea;
 }
-.customerpriceleft{
-    p{
-        color: white;
-    }
-}
-.customerpersoncontent{
-    margin-left: 5%;
+.customerpriceleft {
+  p {
     color: white;
-    h3{
-        margin-bottom: 15%;
-    }
-    h5{
-        margin-bottom: 15%;
-    }
-    .customerphone{
-        margin-bottom: 15%;
-        i{
-            margin-right: 5%;
-        }
-        
-    }
-    .customermail{
-        margin-bottom: 25%;
-    }
-
+  }
 }
-.custombtnprice{
-    border-color: white;
-    background-color: transparent;
+.customerpersoncontent {
+  margin-left: 5%;
+  color: white;
+  h3 {
+    margin-bottom: 15%;
+  }
+  h5 {
+    margin-bottom: 15%;
+  }
+  .customerphone {
+    margin-bottom: 15%;
+    i {
+      margin-right: 5%;
+    }
+  }
+  .customermail {
+    margin-bottom: 25%;
+  }
 }
-.btnconctcustomer{
-    .custombtnprice{
-     float: left;
-     padding: 1% 3%;
-     background-color: transparent;
-     color: white;
-     border-radius: 11px;
- } 
+.custombtnprice {
+  border-color: white;
+  background-color: transparent;
 }
-.btncalc{
-    text-align: center;
-}
-.btncalcmain{
+.btnconctcustomer {
+  .custombtnprice {
     float: left;
-    padding: 1% 2%;
-    background-color: #FA3C45;
+    padding: 1% 3%;
+    background-color: transparent;
     color: white;
-    border: none;
-    border-radius: 5px;
-}
-.loan-calculator{
-    background-color: white;
-    padding: 8% 5% 3% 5%;
-}
-.inpcalc{
-    border-color: $button-color;
-    padding: 2% 3% 2% 3%;
-    border-radius: 9px;
-}
-@media (max-width: 991px){
-
-    
+    border-radius: 11px;
   }
-  @media (max-width: 576px){
-    .customerpricemain1{
-        background: rgb(197,1,10);
-background: linear-gradient(0deg, rgba(197,1,10,1) 50%, rgba(250,60,69,1) 50%);
-    }
-    .customerpriceright{
-        margin-top: 5%;
-    }
+}
+.btncalc {
+  text-align: center;
+}
+.btncalcmain {
+  float: left;
+  padding: 1% 2%;
+  background-color: #fa3c45;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.loan-calculator {
+  background-color: white;
+  padding: 8% 5% 3% 5%;
+}
+.inpcalc {
+  border-color: $button-color;
+  padding: 2% 3% 2% 3%;
+  border-radius: 9px;
+}
+@media (max-width: 991px) {
+  .customerpriceall {
+    padding-top: 12%;
   }
-     
-  
+}
+@media (max-width: 576px) {
+  .customerpricemain1 {
+    background: rgb(197, 1, 10);
+    background: linear-gradient(
+      0deg,
+      rgba(197, 1, 10, 1) 50%,
+      rgba(250, 60, 69, 1) 50%
+    );
+  }
+  .customerpriceright {
+    margin-top: 5%;
+  }
+  .customerpriceall {
+    padding-top: 12%;
+  }
+}

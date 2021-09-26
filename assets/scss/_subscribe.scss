@@ -1,26 +1,25 @@
 .subscribe {
-    padding-top: 9%;
-    padding-bottom: 9%;
-    background-color: #e5e5e5;
-  
-    label {
-      font-weight: bold;
-    }
-    .col-md-3 {
-      width: 23%;
-    }
+  padding-top: 9%;
+  padding-bottom: 9%;
+  background-color: #e5e5e5;
+
+  label {
+    font-weight: bold;
   }
-  .subs-email {
-    width: 70%;
+  .col-md-3 {
+    width: 23%;
   }
-  .buttonsubs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    padding: 7px 10px;
-    background-color: #fa3c45;
-    color: white;
-    border-radius: 7px;
-  }
-  
+}
+.subs-email {
+  width: 70%;
+}
+.buttonsubs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 7px 10px;
+  background-color: #fa3c45;
+  color: white;
+  border-radius: 7px;
+}

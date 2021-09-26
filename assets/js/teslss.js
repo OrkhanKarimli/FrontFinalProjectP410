@@ -14,25 +14,27 @@ $(document).ready(function () {
   $(".playiconak").magnificPopup({
     type: "iframe",
   });
-  $("#ac1").click(function(){
+  $("#ac1").click(function () {
     $(".baglanan1").slideToggle();
-    $( "#ac1" ).toggleClass( 'display-inline');
-
+    $("#ac1").toggleClass("display-inline");
   });
-  $("#ac2").click(function(){
+  $("#ac2").click(function () {
     $(".baglanan2").slideToggle();
-    $( "#ac2" ).toggleClass( 'display-inline ms-4');
-    
+    $("#ac2").toggleClass("display-inline ms-4");
   });
-  const forms = document.querySelectorAll('.customvalidate');
-  let btnvalid=document.querySelector(".teslabtn")
+  const forms = document.querySelectorAll(".customvalidate");
+  let btnvalid = document.querySelector(".teslabtn");
   Array.prototype.slice.call(forms).forEach((form) => {
-      btnvalid.addEventListener('click', (event) => {
+    btnvalid.addEventListener(
+      "click",
+      (event) => {
         if (!form.checkValidity()) {
           event.preventDefault();
           event.stopPropagation();
         }
-        form.classList.add('was-validated');
-      }, false);
-    });
+        form.classList.add("was-validated");
+      },
+      false
+    );
+  });
 });

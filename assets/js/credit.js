@@ -32,9 +32,9 @@ $(document).ready(function () {
   let tbody = document.querySelector("tbody");
   btnvalid.addEventListener("click", function (e) {
     e.preventDefault();
-    
+
     clear();
-    
+
     if (
       $(".inpcheck").val() == "" ||
       $(".inpcheck1").val() == "" ||
@@ -53,21 +53,26 @@ $(document).ready(function () {
       let month_value = parseFloat(month.value);
       let rate_value = parseFloat(rate.value);
       let price_value = parseFloat(price.value);
-      let down_value=parseFloat(down.value);
-      if (isNaN(month_value) || isNaN(rate_value) || isNaN(price_value) ||isNaN(month_value)) {
+      let down_value = parseFloat(down.value);
+      if (
+        isNaN(month_value) ||
+        isNaN(rate_value) ||
+        isNaN(price_value) ||
+        isNaN(down_value)
+      ) {
         alert("Xahiş edirik məlumatları düzgün daxil edin");
-        month.value="";
-        rate.value="";
-        price.value="";
-        down.value="";
+        month.value = "";
+        rate.value = "";
+        price.value = "";
+        down.value = "";
         return;
       }
-      let downresult=down_value*0.5;
+      let downresult = down_value * 0.5;
       let total = price_value + (price_value * rate_value * month_value) / 100;
       let monthly_payment = total / month_value;
-      if(monthly_payment>downresult){
+      if (monthly_payment > downresult) {
         alert("Sizin aylıq gəliriniz kredit üçün əl çatan deyil");
-        down.value="";
+        down.value = "";
         return;
       }
 

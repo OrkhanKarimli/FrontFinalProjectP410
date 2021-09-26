@@ -1,313 +1,308 @@
-.teslasmain1{
-    background-color: $footer-color;
+.teslasmain1 {
+  background-color: $footer-color;
 }
-.teslas{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    color: white;
+.teslas {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
 }
-.teslainfo{
-    padding-top: 8%;
-    background-color: #E5E5E5;
+.teslainfo {
+  padding-top: 8%;
+  background-color: #e5e5e5;
 }
-.carprice{
-    padding-left: 5%;
-    color: $footer-color;
+.carprice {
+  padding-left: 5%;
+  color: $footer-color;
 }
-.maincarimages{
-    height: 558px;
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-}
-.bottomcarimages{
-    height: 240px;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-}
-.carsdescription{
-    p{
-        color: #92929D;
-    }
-}
-.teslayoutube{
-    height: 440px;
-    position: relative;
-    background-image: url(../images/teslacars/teslayoutube.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
-.playicon{
-    position: absolute;
-    left: 48%;
-    top: 43%;
-    font-size: 2.5rem;
-    color: #C5010A;
-    cursor: pointer;
-}
-.collogo{
-    transform: translateY(-6px);
-    img{
-        height: 85%;
-    }
-}
-.carmil{
-    margin-left: 3%;
-    color: #92929D;
-}
-.xett1::before{
-    content: "";
-    height: 2px;
+.maincarimages {
+  height: 558px;
+  img {
     width: 100%;
-    transform: translateY(-17px);
-    display: inline-block;
-    background-color: #E1E1E1;
+    height: 100%;
+    object-fit: cover;
+  }
 }
-.checkclass{
-    i{
-        color: #FA3C45;
-        font-size: 1.3rem;
-    }
+.bottomcarimages {
+  height: 240px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
-.colfeattext{
-    color: #92929D;
+.carsdescription {
+  p {
+    color: #92929d;
+  }
 }
-.teslacontact1{
-    padding-top: 25%;
-    text-align: center;
-    height: 560px;
-    background-color: white;
-    border-radius: 3px;
-    color: white;
-    h3{
-        color: black;
-    }
-    h5{
-        color: #92929D;
-    }
+.teslayoutube {
+  height: 440px;
+  position: relative;
+  background-image: url(../images/teslacars/teslayoutube.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.btnconct{
-   .teslabtn{
+.playicon {
+  position: absolute;
+  left: 48%;
+  top: 43%;
+  font-size: 2.5rem;
+  color: #c5010a;
+  cursor: pointer;
+}
+.collogo {
+  transform: translateY(-6px);
+  img {
+    height: 85%;
+  }
+}
+.carmil {
+  margin-left: 3%;
+  color: #92929d;
+}
+.xett1::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  transform: translateY(-17px);
+  display: inline-block;
+  background-color: #e1e1e1;
+}
+.checkclass {
+  i {
+    color: #fa3c45;
+    font-size: 1.3rem;
+  }
+}
+.colfeattext {
+  color: #92929d;
+}
+.teslacontact1 {
+  padding-top: 25%;
+  text-align: center;
+  height: 560px;
+  background-color: white;
+  border-radius: 3px;
+  color: white;
+  h3 {
+    color: black;
+  }
+  h5 {
+    color: #92929d;
+  }
+}
+.btnconct {
+  .teslabtn {
     float: left;
     margin-left: 1%;
     padding: 4% 4%;
-    background-color: #FA3C45;
-} 
+    background-color: #fa3c45;
+  }
 }
-.selectinp{
-    border-color: #FA3C45;
-    padding: 2% 3% 2% 3%;
-    border-radius: 9px;
+.selectinp {
+  border-color: #fa3c45;
+  padding: 2% 3% 2% 3%;
+  border-radius: 9px;
 }
-.modelfixingtesla{
+.modelfixingtesla {
   padding-top: 4%;
 }
-.teslacustomer{
-    margin-top: 4%;
-    background-color: white;
-    padding-top: 9%;
-    padding-bottom: 6%;
-    h5{
-        margin-right: 44%;
-        margin-bottom: 8%;
-    }
-    .customerimg{
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        background-color: #E2E2EA;
-        margin-left: 39%;
-        margin-bottom: 2%;
-    }
-}
-.viewprof{
-    margin-top: 3%;
-    padding: 3% 5%;
-    background-color: #FA3C45;
-    color: white;
-    border-radius: 8px;
-    border: none;
-}
-.featuredcars {
-    margin-top: 4%;
-    background-color: white;
-    padding-top: 9%;
-    padding-bottom: 6%;
-    padding-left: 8%;
-    h5{
-       
-        margin-bottom: 8%;
-    }
-}
-
-#chooseonefeat{
-    color: #FA3C45;
-}
-.featuredimg{
+.teslacustomer {
+  margin-top: 4%;
+  background-color: white;
+  padding-top: 9%;
+  padding-bottom: 6%;
+  h5 {
+    margin-right: 44%;
+    margin-bottom: 8%;
+  }
+  .customerimg {
     width: 80px;
     height: 80px;
-    background-color: #E2E2EA;
-    border-radius: 4px;
-}
-.modelstags{
-    margin-top: 4%;
-    background-color: white;
-    padding-top: 9%;
-    padding-bottom: 6%;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-.modelsele{
-    padding: 1% 6%;
-    color: #fa3c45;
-    border: 1px solid #fa3c45;
-    display: inline-block;
-    margin-right: 3%;
-    margin-bottom: 4%;
-    border-radius: 20px;
-}
-.newcar{
-    h3,
-    p {
-      color: white;
-    }
-    h4 {
-      color: $button-color;
-    }
-  
-    background-image: url(../images/home/e60.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    position: relative;
+    border-radius: 50%;
+    background-color: #e2e2ea;
+    margin-left: 39%;
+    margin-bottom: 2%;
   }
-  .newcar::before {
-    content: "NEW";
-    color: red;
-    background-color: white;
-    position: absolute;
-    top: 2%;
-    font-size: 11px;
-    padding: 1px 8px;
-    left: 2%;
-    border-radius: 3px;
+}
+.viewprof {
+  margin-top: 3%;
+  padding: 3% 5%;
+  background-color: #fa3c45;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+.featuredcars {
+  margin-top: 4%;
+  background-color: white;
+  padding-top: 9%;
+  padding-bottom: 6%;
+  padding-left: 8%;
+  h5 {
+    margin-bottom: 8%;
+  }
+}
+
+#chooseonefeat {
+  color: #fa3c45;
+}
+.featuredimg {
+  width: 80px;
+  height: 80px;
+  background-color: #e2e2ea;
+  border-radius: 4px;
+}
+.modelstags {
+  margin-top: 4%;
+  background-color: white;
+  padding-top: 9%;
+  padding-bottom: 6%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.modelsele {
+  padding: 1% 6%;
+  color: #fa3c45;
+  border: 1px solid #fa3c45;
+  display: inline-block;
+  margin-right: 3%;
+  margin-bottom: 4%;
+  border-radius: 20px;
+}
+.newcar {
+  h3,
+  p {
+    color: white;
+  }
+  h4 {
+    color: $button-color;
   }
 
-  .fordc{
-    h3,
-    p {
-      color: white;
-    }
-    h4 {
-      color: $button-color;
-    }
-  
-    background-image: url(../images/home/w213.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    position: relative;
+  background-image: url(../images/home/e60.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+.newcar::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+
+.fordc {
+  h3,
+  p {
+    color: white;
   }
-  .fordc::before {
-    content: "NEW";
-    color: red;
-    background-color: white;
-    position: absolute;
-    top: 2%;
-    font-size: 11px;
-    padding: 1px 8px;
-    left: 2%;
-    border-radius: 3px;
+  h4 {
+    color: $button-color;
   }
-  .santafe{
-    h3,
-    p {
-      color: white;
-    }
-    h4 {
-      color: $button-color;
-    }
-  
-    background-image: url(../images/home/e39.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    position: relative;
+
+  background-image: url(../images/home/w213.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+.fordc::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+.santafe {
+  h3,
+  p {
+    color: white;
   }
-  .santafe::before {
-    content: "NEW";
-    color: red;
-    background-color: white;
-    position: absolute;
-    top: 2%;
-    font-size: 11px;
-    padding: 1px 8px;
-    left: 2%;
-    border-radius: 3px;
+  h4 {
+    color: $button-color;
   }
-  .w210{
-    h3,
-    p {
-      color: white;
-    }
-    h4 {
-      color: $button-color;
-    }
-  
-    background-image: url(../images/home/w210.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    position: relative;
+
+  background-image: url(../images/home/e39.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+.santafe::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+.w210 {
+  h3,
+  p {
+    color: white;
   }
-  .w210::before {
-    content: "NEW";
-    color: red;
-    background-color: white;
-    position: absolute;
-    top: 2%;
-    font-size: 11px;
-    padding: 1px 8px;
-    left: 2%;
-    border-radius: 3px;
+  h4 {
+    color: $button-color;
   }
-  .display-inline{
-    display: inline-block;
+
+  background-image: url(../images/home/w210.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+.w210::before {
+  content: "NEW";
+  color: red;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  font-size: 11px;
+  padding: 1px 8px;
+  left: 2%;
+  border-radius: 3px;
+}
+.display-inline {
+  display: inline-block;
+}
+@media (max-width: 991px) {
+  .teslas {
+    padding-top: 9%;
   }
-  @media (max-width: 991px){
-    .teslas{
-        padding-top: 9%;
-      }
-   .carprice{
-       padding-left: 0%;
-   }
-    
+  .carprice {
+    padding-left: 0%;
   }
-  @media (max-width: 576px){
-  .teslas{
+}
+@media (max-width: 576px) {
+  .teslas {
     padding-top: 14%;
   }
-  .carprice{
+  .carprice {
     padding-left: 16%;
+  }
 }
+.playicon {
+  a {
+    color: rgb(197, 1, 10);
   }
-  .playicon{
-      a{
-        color: rgb(197, 1, 10);  
-      }
-
-     
-  }
+}
