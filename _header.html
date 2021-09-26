@@ -1,4 +1,10 @@
-<body>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head>
+<body class="headbody">
   <div class="container headmenu mainnav">
     <div class="row">
       <div class="col-md-2">
@@ -31,7 +37,7 @@
       <div class="col-md-3 d-flex justify-content-center align-items-center">
         <div class="round"></div>
         <div class="homebtn">
-          <button type="button" class="text-capitalize">add your item</button>
+          <button type="button" class="text-capitalize" data-bs-toggle="modal" data-bs-target="#exampleModal">add your item</button>
         </div>
       </div>
     </div>
@@ -69,8 +75,8 @@
             <a href="customerprice.html" target="_blank"
               ><li class="selectli">Contac Us</li></a
             >
-            <li>Sign In</li>
-            <li>Log In</li>
+            <li  data-bs-toggle="modal" data-bs-target="#exampleModalsign">Sign In</li>
+            <li  data-bs-toggle="modal" data-bs-target="#exampleModallogin">Log In</li>
             <li>
               Page <span><i class="fas fa-chevron-down"></i></span>
             </li>
@@ -135,7 +141,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form class="sign-in modalnone">
+          <form class="sign-in">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -179,27 +185,8 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-          <form class="sign-in modalnone">
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-group mb-3 mt-3">
-              <label for="exampleInputPassword1">Check Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btnmodalog">Log In</button>
-          <button type="button" class="btn btn-primary btnmodalsign">Sign In</button>
-        </div>
+
       </div>
     </div>
   </div>
@@ -207,8 +194,16 @@
     $(".iconclick").click(function (swing) {
       $(".sil").slideToggle();
     });
-    let li = document.querySelectorAll(".selectli");
+    $(".btnmodalog").click(function(){
+      $(".sign-in").hide();
+      $(".log-in").show();
+    });
+    $(".btnmodalsign").click(function(){
+      $(".log-in").hide();
+      $(".sign-in").show();
+    });
   </script>
 
   <script src="assets/libs/js/bootstrap.js"></script>
+  
 </body>

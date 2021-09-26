@@ -530,6 +530,14 @@ body {
   }
 }
 
+body {
+  padding-right: 0px !important;
+}
+
+.modalnone {
+  display: none;
+}
+
 .headmenu {
   padding-top: 1%;
 }
@@ -591,6 +599,15 @@ body {
 
 .mainnav {
   display: block;
+}
+
+.modal-header .close {
+  /* margin-top: -2px; */
+  margin-left: 80%;
+}
+
+.nonelog {
+  display: none;
 }
 
 @media (max-width: 991px) {
