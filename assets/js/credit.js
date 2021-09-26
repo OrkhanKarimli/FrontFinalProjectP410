@@ -67,11 +67,13 @@ $(document).ready(function () {
         down.value = "";
         return;
       }
-      let downresult = down_value * 0.5;
-      let total = price_value + (price_value * rate_value * month_value) / 100;
+      let downresult = price_value * 0.3;
+      let price_final_value=price_value-down_value;
+      console.log(price_final_value);
+      let total =  price_final_value + ( price_final_value * rate_value * month_value) / 100;
       let monthly_payment = total / month_value;
-      if (monthly_payment > downresult) {
-        alert("Sizin aylıq gəliriniz kredit üçün əl çatan deyil");
+      if (down_value < downresult) {
+        alert("Ilkin ödəniş manlın dəyərinin 30%-dən çoxunu təşkil etməlidir");
         down.value = "";
         return;
       }
