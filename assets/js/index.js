@@ -11,7 +11,8 @@ $(document).ready(function () {
     $("body").removeClass("overflow-y");
     $(".loader1").addClass("none");
   }, 2000);
-
+  
+  
  
   $('.owl-carousel').owlCarousel({
     loop:true,

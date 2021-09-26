@@ -561,6 +561,10 @@ body {
   border: none;
 }
 
+.activeli {
+  font-weight: bolder;
+}
+
 .mimimenu {
   text-align: center;
   background-color: black;
@@ -1298,6 +1302,8 @@ footer .footer-content .footer-bottom p {
 
 .selectinp {
   border-color: #FA3C45;
+  padding: 2% 3% 2% 3%;
+  border-radius: 9px;
 }
 
 .modelfixingtesla {
@@ -1576,6 +1582,30 @@ footer .footer-content .footer-bottom p {
   background-color: transparent;
   color: white;
   border-radius: 11px;
+}
+
+.btncalc {
+  text-align: center;
+}
+
+.btncalcmain {
+  float: left;
+  padding: 1% 2%;
+  background-color: #FA3C45;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.loan-calculator {
+  background-color: white;
+  padding: 8% 5% 3% 5%;
+}
+
+.inpcalc {
+  border-color: #fa3c45;
+  padding: 2% 3% 2% 3%;
+  border-radius: 9px;
 }
 
 @media (max-width: 576px) {

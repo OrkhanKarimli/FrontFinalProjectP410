@@ -50,8 +50,101 @@
                <section class="loan-calculator col-md-12">
                  
                        <h3>Loan Calculator</h3>
-                       <p>What a brand new resource, You can try our resource and explore how it works</p>
+                       <p class="mb-5">What a brand new resource, You can try our resource and explore how it works</p>
+                       <form class="row customvalidate1 calcresultform" novalidate>
+                         <h6>Car Price ($)</h6>
+                        <div class="mb-5 col-md-12">
+                            <div class="form-outline">
+                           <input
+                            type="text"
+                            class="form-control inpcalc inpcheck1"
+                            placeholder="Input your price car"
+                            id="validationCustom01"
+                            aria-describedby="emailHelp"
+                            required />
+                            <div class="invalid-feedback">
+                                Buranı boş saxlamaq olmaz!
+                              </div>
+                              <div class="valid-feedback"></div>
+                            </div>
+
+                        </div>
+                        <div class="mb-5 col-md-12">
+                           <div class="row">
+                             
+                             <div class="col-md-6"> <div class="form-outline">
+                               <h6>
+                              Interest Rate (%)
+                             </h6>
+                              <input
+                             type="text"
+                             class="form-control inpcalc inpcheck"
+                             placeholder="Input your interest rate"
+                             id="validationCustom02"
+                             aria-describedby="emailHelp"
+                          required />
+                          <div class="invalid-feedback">
+                            Buranı boş saxlamaq olmaz!
+                           </div>
+                           <div class="valid-feedback1"></div>
+                         </div></div>
+                             <div class="col-md-6">
+                              <h6>
+                                Periode Month
+                               </h6>
+                              <div class="form-outline">
+                                <input
+                               type="text"
+                               class="form-control inpcalc inpcheck2"
+                               placeholder="Input periode month"
+                               id="validationCustom02"
+                               aria-describedby="emailHelp"
+                            required />
+                            <div class="invalid-feedback">
+                              Buranı boş saxlamaq olmaz!
+                             </div>
+                             <div class="valid-feedback"></div>
+                           </div>
+                             </div>
+                           </div>
+                            </div>
+                            <h6>Down Payment ($)</h6>
+                            <div class="mb-5 col-md-12">
+                              <div class="form-outline">
+                             <input
+                              type="text"
+                              class="form-control inpcalc inpcheck3"
+                              placeholder="Input your down payment"
+                              id="validationCustom01"
+                              aria-describedby="emailHelp"
+                              required />
+                              <div class="invalid-feedback">
+                                  Buranı boş saxlamaq olmaz!
+                                </div>
+                                <div class="valid-feedback"></div>
+                              </div>
+  
+                          </div> 
+                          <div class="btncalc col-md-12">
+                      <button type="submit" class="btncalcmain">Calculate</button>
+                    </div>
+                    </form>
                    
+               </section>
+               <section class="calc-result">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">№</th>
+                      <th scope="col">Tarix</th>
+                      <th scope="col">Aylıq ödəniş</th>
+                      <th scope="col">Qalıq</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                 
+                  </tbody>
+                </table>
                </section>
             </div>
             <div class="col-md-4">

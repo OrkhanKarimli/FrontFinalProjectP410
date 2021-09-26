@@ -9,21 +9,22 @@
     </div>
     <div class="col-md-7 d-flex justify-content-center flex-column">
       <ul class="d-flex mainul justify-content-between align-items-center">
-        <li class="yoxla">Home</li>
-        <li>Explore</li>
-        <li>Showroom</li>
-        <li>Credit Simulation</li>
-        <li>Contac Us</li>
-        <li>
+       <a href="index.html" target="_blank"><li class="selectli">Home</li></a> 
+        <a href="explore.html" target="_blank"><li class="selectli" >Explore</li></a>
+        <li class="selectli">Showroom</li>
+        <li class="selectli">Credit Simulation</li>
+        <li class="selectli">Contac Us</li>
+        <li class="selectli">
           Page <span><i class="fas fa-chevron-down"></i></span>
         </li>
       </ul>
     </div>
     <div class="col-md-3 d-flex justify-content-center align-items-center">
-      <div class="round"></div>
+      <div  class="round"></div>
       <div class="homebtn">
-        <button class="text-capitalize">add your item</button>
+        <button type="button" class="text-capitalize">add your item</button>
       </div>
+  
     </div>
 </div>
 
@@ -55,12 +56,51 @@
     </div>
 
   </div>
+
+
     
   <script>
     $(".iconclick").click(function(swing){
     $(".sil").slideToggle();
     });
+    let li=document.querySelectorAll(".selectli");
+    
+    
+    // li.forEach(element => {
+    //   let root = element.parentElement;
+    // let contents = root.children;
+    // for (let index = 0; index < contents.length; index++) {
+    //   const element = contents[index];
+    //   element.classList.remove("add");
+    // }
+    // this.classList.add("add");
+    // });
+    // li.forEach(element =>{
+    // let cla="activeli";
+    // let cll=localStorage.setItem("val",JSON.stringify(cla));
+    // let clb=localStorage.getItem("val");
+    //   element.addEventListener("click",function(){
+    //     let root = element.parentElement;
+    // let contents = root.children;
+    // for (let index = 0; index < contents.length; index++) {
+    //   const element = contents[index];
+    //   element.classList.remove("activeli");
+    // }
+    // this.classList.add("activeli");
+    
+    
+    
+    //   })
+    // })
+    // for(let i=0;i<li.length;i++){
+    //   li[i].addEventListener("click",function(e){
+    //     let cur=e.currentTarget;
+        
+       
+      
+    // })
+  
   </script>
   
-
+<script src="assets/libs/js/bootstrap.js"></script>
 </body>
