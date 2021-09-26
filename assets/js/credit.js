@@ -70,7 +70,7 @@ $(document).ready(function () {
       let downresult = price_value * 0.3;
       let price_final_value=price_value-down_value;
       console.log(price_final_value);
-      let total =  price_final_value + ( price_final_value * rate_value * month_value) / 100;
+      let total =  price_final_value + ( price_final_value * rate_value) /month_value ;
       let monthly_payment = total / month_value;
       if (down_value < downresult) {
         alert("Ilkin ödəniş manlın dəyərinin 30%-dən çoxunu təşkil etməlidir");
